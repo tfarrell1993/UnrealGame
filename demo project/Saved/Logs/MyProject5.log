@@ -1,4 +1,4 @@
-﻿Log file open, 11/27/14 23:19:32
+﻿Log file open, 11/28/14 14:36:22
 LogInit:Display: Running engine for game: MyProject5
 LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
 LogInit: API Version: 2326478
@@ -9,935 +9,112 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.5
 LogInit: Command line: 
 LogInit: Base directory: C:/Program Files/Epic Games/4.5/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2014.11.28-04.19.32:280][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
-[2014.11.28-04.19.32:312][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2014.11.28-04.19.32:343][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2014.11.28-04.19.32:363][  0]LogInit: Object subsystem initialized
-[2014.11.28-04.19.32:369][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2014.11.28-04.19.32:369][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/phelow/Documents/E-BALL-A/demo project/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2014.11.28-04.19.32:369][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
-[2014.11.28-04.19.32:369][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/phelow/Documents/E-BALL-A/demo project/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2014.11.28-04.19.32:370][  0]LogInit: Selected Device Profile: [Windows]
-[2014.11.28-04.19.32:370][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2014.11.28-04.19.32:376][  0]LogInit: Computer: PHELOW-PC
-[2014.11.28-04.19.32:376][  0]LogInit: User: phelow
-[2014.11.28-04.19.32:378][  0]LogInit: CPU Page size=4096, Cores=2
-[2014.11.28-04.19.32:378][  0]LogInit: High frequency timer resolution =2.728242 MHz
-[2014.11.28-04.19.32:378][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx) Virtual=8192.0GB
-[2014.11.28-04.19.32:379][  0]LogMemory: Platform Memory Stats for Windows
-[2014.11.28-04.19.32:379][  0]LogMemory: Process Physical Memory: 64.17 MB used, 64.17 MB peak
-[2014.11.28-04.19.32:379][  0]LogMemory: Process Virtual Memory: 41.38 MB used, 41.38 MB peak
-[2014.11.28-04.19.32:379][  0]LogMemory: Physical Memory: 5157.20 MB used, 7915.94 MB total
-[2014.11.28-04.19.32:379][  0]LogMemory: Virtual Memory: 278.33 MB used, 8388608.00 MB total
-[2014.11.28-04.19.32:424][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
-[2014.11.28-04.19.32:424][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
-[2014.11.28-04.19.32:439][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA NVS 5400M    (Feature Level 11_0)
-[2014.11.28-04.19.32:439][  0]LogD3D11RHI: Adapter has 978MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 1 output[s]
-[2014.11.28-04.19.32:439][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 1
-[2014.11.28-04.19.32:446][  0]LogRHI: Texture pool is 684 MB (70% of 978 MB)
-[2014.11.28-04.19.32:455][  0]LogD3D11RHI: Async texture creation enabled
-[2014.11.28-04.19.32:499][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
-[2014.11.28-04.19.32:658][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2014.11.28-04.19.38:069][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.28-04.19.38:636][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.28-04.19.38:704][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2014.11.28-04.19.38:748][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/phelow/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
-[2014.11.28-04.19.38:748][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/phelow/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
-[2014.11.28-04.19.38:748][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2014.11.28-04.19.38:748][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2014.11.28-04.19.38:831][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2014.11.28-04.19.38:843][  0]LogDerivedDataCache: Using Local data cache path C:/Users/phelow/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2014.11.28-04.19.39:053][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2014.11.28-04.19.39:053][  0]LogMeshUtilities: No automatic mesh merging module available
-[2014.11.28-04.19.39:285][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.28-04.19.39:289][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.28-04.19.39:489][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2014.11.28-04.19.40:340][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2014.11.28-04.19.40:514][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/phelow/Documents/E-BALL-A/demo project/Binaries/Win64. Error: 0
-[2014.11.28-04.19.40:653][  0]SourceControl: Info Source control is disabled
-[2014.11.28-04.19.40:653][  0]SourceControl: Info Source control is disabled
-[2014.11.28-04.19.40:660][  0]SourceControl: Info Source control is disabled
-[2014.11.28-04.19.40:827][  0]LogObj: 22915 objects as part of root set at end of initial load.
-[2014.11.28-04.19.40:827][  0]LogUObjectAllocator: 4803544 out of 0 bytes used by permanent object pool.
-[2014.11.28-04.19.40:900][  0]LogEngine: Initializing Engine...
-[2014.11.28-04.19.41:069][  0]LogInit: XAudio2 using 'Speakers (Siberia V2 Illuminated)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2014.11.28-04.19.41:079][  0]LogInit: FAudioDevice initialized.
-[2014.11.28-04.19.41:101][  0]LogAIModule: Creating AISystem for world NewWorld
-[2014.11.28-04.19.41:129][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/phelow/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
-[2014.11.28-04.19.41:134][  0]LogInit: Texture streaming: Enabled
-[2014.11.28-04.19.41:185][  0]LogInit: Transaction tracking system initialized
-[2014.11.28-04.19.41:289][  0]BlueprintLog: New page: Editor Load
-[2014.11.28-04.19.41:321][  0]LogAssetRegistry: FAssetRegistry took 0.0093 seconds to start up
-[2014.11.28-04.19.41:321][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2014.11.28-04.19.41:968][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.28-04.19.42:358][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.28-04.19.42:600][  0]LogConsoleResponse:Display: 
-[2014.11.28-04.19.42:970][  0]SourceControl: Info Source control is disabled
-[2014.11.28-04.19.42:970][  0]Cmd: MAP LOAD FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2014.11.28-04.19.42:970][  0]LightingResults: New page: Lighting Build
-[2014.11.28-04.19.42:981][  0]MapCheck: New page: Map Check
-[2014.11.28-04.19.42:981][  0]LightingResults: New page: Lighting Build
-[2014.11.28-04.19.42:999][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017001A80
-[2014.11.28-04.19.43:212][  0]LogLinker:Warning: Asset '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Meshes/BallMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.28-04.19.43:732][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.11.28-04.19.43:733][  0]LogAIModule: Creating AISystem for world Example_Map
-[2014.11.28-04.19.43:734][  0]Cmd: MAP CHECKDEP
-[2014.11.28-04.19.43:734][  0]MapCheck: New page: Example_Map - Nov 27, 2014, 6:19:43 PM
-[2014.11.28-04.19.43:855][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 121.417ms to complete.
-[2014.11.28-04.19.43:855][  0]LogFileHelpers: Loading map 'Example_Map' took 0.886
-[2014.11.28-04.19.43:951][  0]LogCollectionManager: Loaded 0 collections in 0.001016 seconds
-[2014.11.28-04.19.44:081][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2014.11.28-04.19.44:108][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2014.11.28-04.19.44:148][  0]LogLoad: Full Startup: 14.63 seconds (BP compile: 0.15 seconds)
-[2014.11.28-04.19.44:491][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Veins'
-[2014.11.28-04.19.44:630][  0]LogRenderer:Warning: Reallocating scene render targets to support 896x728.
-[2014.11.28-04.19.45:518][  3]LogAssetRegistry: Asset discovery search completed in 4.2058 seconds
-[2014.11.28-04.19.51:778][ 26]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
-[2014.11.28-04.19.53:259][ 80]Cmd: MAP LOAD FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Maps/GameMap.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2014.11.28-04.19.53:259][ 80]LightingResults: New page: Lighting Build
-[2014.11.28-04.19.53:298][ 80]LoadErrors: New page: Loading map: GameMap.umap
-[2014.11.28-04.19.53:299][ 80]MapCheck: New page: Map Check
-[2014.11.28-04.19.53:299][ 80]LightingResults: New page: Lighting Build
-[2014.11.28-04.19.53:321][ 80]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000115BE020
-[2014.11.28-04.19.53:331][ 80]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.11.28-04.19.53:331][ 80]LogAIModule: Creating AISystem for world GameMap
-[2014.11.28-04.19.53:363][ 80]Cmd: MAP CHECKDEP
-[2014.11.28-04.19.53:363][ 80]MapCheck: New page: GameMap - Nov 27, 2014, 6:19:53 PM
-[2014.11.28-04.19.53:474][ 80]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 110.926ms to complete.
-[2014.11.28-04.19.53:474][ 80]LogFileHelpers: Loading map 'GameMap' took 0.218
-[2014.11.28-04.19.55:219][164]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Veins'
-[2014.11.28-04.20.02:607][397]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/Tunnel_Turn_Tight_Spiral.fbx)
-[2014.11.28-04.20.02:613][397]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2014.11.28-04.20.02:613][397]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2014.11.28-04.20.02:613][397]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2014.11.28-04.20.02:613][397]LogFbx: ItemName: NodeAttribute, ItemCount : 2
-[2014.11.28-04.20.02:613][397]LogFbx: ItemName: Model, ItemCount : 3
-[2014.11.28-04.20.02:613][397]LogFbx: ItemName: Geometry, ItemCount : 1
-[2014.11.28-04.20.02:613][397]LogFbx: ItemName: Material, ItemCount : 1
-[2014.11.28-04.20.04:642][397]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/Tunnel_Turn_Tight.fbx)
-[2014.11.28-04.20.04:642][397]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/Tunnel_Turn_Shallow.fbx)
-[2014.11.28-04.20.04:643][397]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/Tunnel_Straight_02.fbx)
-[2014.11.28-04.20.04:644][397]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/Tunnel_Straight_01.fbx)
-[2014.11.28-04.20.04:644][397]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/rbc.fbx)
-[2014.11.28-04.20.04:645][397]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/obstacle_ramp.fbx)
-[2014.11.28-04.20.04:645][397]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/obstacle_column.fbx)
-[2014.11.28-04.20.04:646][397]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/muscle.fbx)
-[2014.11.28-04.20.16:382][628]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/Tunnel_Turn_Tight.fbx)
-[2014.11.28-04.20.16:386][628]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2014.11.28-04.20.16:386][628]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2014.11.28-04.20.16:386][628]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2014.11.28-04.20.16:386][628]LogFbx: ItemName: NodeAttribute, ItemCount : 2
-[2014.11.28-04.20.16:386][628]LogFbx: ItemName: Model, ItemCount : 3
-[2014.11.28-04.20.16:386][628]LogFbx: ItemName: Geometry, ItemCount : 1
-[2014.11.28-04.20.16:386][628]LogFbx: ItemName: Material, ItemCount : 1
-[2014.11.28-04.20.17:812][628]LogFbx: Loading FBX Scene from ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/Tunnel_Turn_Tight.fbx
-[2014.11.28-04.20.17:821][628]LogFbx: FBX Scene Loaded Succesfully
-[2014.11.28-04.20.17:849][628]LogFbx:Warning: Triangulating static mesh pCylinder1
-[2014.11.28-04.20.17:911][628]LogFbx: == Initial material list:
-[2014.11.28-04.20.17:911][628]LogFbx: 0: lambert1
-[2014.11.28-04.20.17:911][628]LogFbx: == After sorting:
-[2014.11.28-04.20.17:911][628]LogFbx: 0: lambert1
-[2014.11.28-04.20.17:911][628]LogFbx: == Mapping table:
-[2014.11.28-04.20.17:911][628]LogFbx:   sort 0 -> 0
-[2014.11.28-04.20.17:924][628]LogStaticMesh: Building static mesh Tunnel_Turn_Tight...
-[2014.11.28-04.20.17:926][628]LogLayoutUV:Display: FindCharts: 0 ms
-[2014.11.28-04.20.17:927][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.17:927][628]LogLayoutUV:Display:   Rasterize: 1548
-[2014.11.28-04.20.17:927][628]LogLayoutUV:Display:   Find: 4
-[2014.11.28-04.20.17:928][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.17:928][628]LogLayoutUV:Display:   Rasterize: 1930
-[2014.11.28-04.20.17:928][628]LogLayoutUV:Display:   Find: 3
-[2014.11.28-04.20.17:928][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.17:928][628]LogLayoutUV:Display:   Rasterize: 1750
-[2014.11.28-04.20.17:928][628]LogLayoutUV:Display:   Find: 3
-[2014.11.28-04.20.17:929][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.17:929][628]LogLayoutUV:Display:   Rasterize: 1724
-[2014.11.28-04.20.17:929][628]LogLayoutUV:Display:   Find: 3
-[2014.11.28-04.20.17:930][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.17:930][628]LogLayoutUV:Display:   Rasterize: 1794
-[2014.11.28-04.20.17:930][628]LogLayoutUV:Display:   Find: 3
-[2014.11.28-04.20.17:930][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.17:930][628]LogLayoutUV:Display:   Rasterize: 1762
-[2014.11.28-04.20.17:930][628]LogLayoutUV:Display:   Find: 5
-[2014.11.28-04.20.17:931][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.17:931][628]LogLayoutUV:Display:   Rasterize: 1805
-[2014.11.28-04.20.17:931][628]LogLayoutUV:Display:   Find: 3
-[2014.11.28-04.20.17:932][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.17:932][628]LogLayoutUV:Display:   Rasterize: 1777
-[2014.11.28-04.20.17:932][628]LogLayoutUV:Display:   Find: 3
-[2014.11.28-04.20.17:934][628]LogStaticMesh: Built static mesh [22.274418ms] /Game/Veins/Tunnel_Turn_Tight.Tunnel_Turn_Tight
-[2014.11.28-04.20.17:971][628]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/Tunnel_Turn_Shallow.fbx)
-[2014.11.28-04.20.19:335][628]LogFbx: Loading FBX Scene from ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/Tunnel_Turn_Shallow.fbx
-[2014.11.28-04.20.19:345][628]LogFbx: FBX Scene Loaded Succesfully
-[2014.11.28-04.20.19:349][628]LogFbx:Warning: Triangulating static mesh pCylinder1
-[2014.11.28-04.20.19:411][628]LogFbx: == Initial material list:
-[2014.11.28-04.20.19:411][628]LogFbx: 0: lambert1
-[2014.11.28-04.20.19:411][628]LogFbx: == After sorting:
-[2014.11.28-04.20.19:411][628]LogFbx: 0: lambert1
-[2014.11.28-04.20.19:411][628]LogFbx: == Mapping table:
-[2014.11.28-04.20.19:411][628]LogFbx:   sort 0 -> 0
-[2014.11.28-04.20.19:424][628]LogStaticMesh: Building static mesh Tunnel_Turn_Shallow...
-[2014.11.28-04.20.19:428][628]LogLayoutUV:Display: FindCharts: 0 ms
-[2014.11.28-04.20.19:428][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:428][628]LogLayoutUV:Display:   Rasterize: 1515
-[2014.11.28-04.20.19:428][628]LogLayoutUV:Display:   Find: 3
-[2014.11.28-04.20.19:429][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:429][628]LogLayoutUV:Display:   Rasterize: 1696
-[2014.11.28-04.20.19:429][628]LogLayoutUV:Display:   Find: 5
-[2014.11.28-04.20.19:430][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:430][628]LogLayoutUV:Display:   Rasterize: 1747
-[2014.11.28-04.20.19:430][628]LogLayoutUV:Display:   Find: 2
-[2014.11.28-04.20.19:430][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:430][628]LogLayoutUV:Display:   Rasterize: 1756
-[2014.11.28-04.20.19:430][628]LogLayoutUV:Display:   Find: 2
-[2014.11.28-04.20.19:431][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:431][628]LogLayoutUV:Display:   Rasterize: 2353
-[2014.11.28-04.20.19:431][628]LogLayoutUV:Display:   Find: 5
-[2014.11.28-04.20.19:432][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:432][628]LogLayoutUV:Display:   Rasterize: 2161
-[2014.11.28-04.20.19:432][628]LogLayoutUV:Display:   Find: 4
-[2014.11.28-04.20.19:433][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:433][628]LogLayoutUV:Display:   Rasterize: 1764
-[2014.11.28-04.20.19:433][628]LogLayoutUV:Display:   Find: 3
-[2014.11.28-04.20.19:433][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:433][628]LogLayoutUV:Display:   Rasterize: 1913
-[2014.11.28-04.20.19:433][628]LogLayoutUV:Display:   Find: 4
-[2014.11.28-04.20.19:436][628]LogStaticMesh: Built static mesh [24.705652ms] /Game/Veins/Tunnel_Turn_Shallow.Tunnel_Turn_Shallow
-[2014.11.28-04.20.19:450][628]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/Tunnel_Straight_02.fbx)
-[2014.11.28-04.20.19:459][628]LogFbx: Loading FBX Scene from ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/Tunnel_Straight_02.fbx
-[2014.11.28-04.20.19:468][628]LogFbx: FBX Scene Loaded Succesfully
-[2014.11.28-04.20.19:471][628]LogFbx:Warning: Triangulating static mesh pCylinder1
-[2014.11.28-04.20.19:533][628]LogFbx: == Initial material list:
-[2014.11.28-04.20.19:533][628]LogFbx: 0: lambert1
-[2014.11.28-04.20.19:533][628]LogFbx: == After sorting:
-[2014.11.28-04.20.19:533][628]LogFbx: 0: lambert1
-[2014.11.28-04.20.19:533][628]LogFbx: == Mapping table:
-[2014.11.28-04.20.19:533][628]LogFbx:   sort 0 -> 0
-[2014.11.28-04.20.19:535][628]LogStaticMesh: Building static mesh Tunnel_Straight_02...
-[2014.11.28-04.20.19:539][628]LogLayoutUV:Display: FindCharts: 0 ms
-[2014.11.28-04.20.19:540][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:540][628]LogLayoutUV:Display:   Rasterize: 2392
-[2014.11.28-04.20.19:540][628]LogLayoutUV:Display:   Find: 4
-[2014.11.28-04.20.19:541][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:541][628]LogLayoutUV:Display:   Rasterize: 2662
-[2014.11.28-04.20.19:541][628]LogLayoutUV:Display:   Find: 7
-[2014.11.28-04.20.19:542][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:542][628]LogLayoutUV:Display:   Rasterize: 2147
-[2014.11.28-04.20.19:542][628]LogLayoutUV:Display:   Find: 6
-[2014.11.28-04.20.19:543][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:543][628]LogLayoutUV:Display:   Rasterize: 1793
-[2014.11.28-04.20.19:543][628]LogLayoutUV:Display:   Find: 4
-[2014.11.28-04.20.19:543][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:543][628]LogLayoutUV:Display:   Rasterize: 1786
-[2014.11.28-04.20.19:543][628]LogLayoutUV:Display:   Find: 3
-[2014.11.28-04.20.19:544][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:544][628]LogLayoutUV:Display:   Rasterize: 1823
-[2014.11.28-04.20.19:544][628]LogLayoutUV:Display:   Find: 3
-[2014.11.28-04.20.19:545][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:545][628]LogLayoutUV:Display:   Rasterize: 2244
-[2014.11.28-04.20.19:545][628]LogLayoutUV:Display:   Find: 6
-[2014.11.28-04.20.19:546][628]LogLayoutUV:Display: PackCharts: 1 ms
-[2014.11.28-04.20.19:546][628]LogLayoutUV:Display:   Rasterize: 3050
-[2014.11.28-04.20.19:546][628]LogLayoutUV:Display:   Find: 7
-[2014.11.28-04.20.19:548][628]LogStaticMesh: Built static mesh [14.442634ms] /Game/Veins/Tunnel_Straight_02.Tunnel_Straight_02
-[2014.11.28-04.20.19:580][628]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/Tunnel_Straight_01.fbx)
-[2014.11.28-04.20.19:589][628]LogFbx: Loading FBX Scene from ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/Tunnel_Straight_01.fbx
-[2014.11.28-04.20.19:597][628]LogFbx: FBX Scene Loaded Succesfully
-[2014.11.28-04.20.19:601][628]LogFbx:Warning: Triangulating static mesh pCylinder1
-[2014.11.28-04.20.19:662][628]LogFbx: == Initial material list:
-[2014.11.28-04.20.19:662][628]LogFbx: 0: lambert1
-[2014.11.28-04.20.19:662][628]LogFbx: == After sorting:
-[2014.11.28-04.20.19:662][628]LogFbx: 0: lambert1
-[2014.11.28-04.20.19:662][628]LogFbx: == Mapping table:
-[2014.11.28-04.20.19:662][628]LogFbx:   sort 0 -> 0
-[2014.11.28-04.20.19:663][628]LogStaticMesh: Building static mesh Tunnel_Straight_01...
-[2014.11.28-04.20.19:666][628]LogLayoutUV:Display: FindCharts: 0 ms
-[2014.11.28-04.20.19:666][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:666][628]LogLayoutUV:Display:   Rasterize: 1505
-[2014.11.28-04.20.19:666][628]LogLayoutUV:Display:   Find: 4
-[2014.11.28-04.20.19:667][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:667][628]LogLayoutUV:Display:   Rasterize: 1769
-[2014.11.28-04.20.19:667][628]LogLayoutUV:Display:   Find: 3
-[2014.11.28-04.20.19:668][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:668][628]LogLayoutUV:Display:   Rasterize: 2088
-[2014.11.28-04.20.19:668][628]LogLayoutUV:Display:   Find: 4
-[2014.11.28-04.20.19:668][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:668][628]LogLayoutUV:Display:   Rasterize: 1718
-[2014.11.28-04.20.19:668][628]LogLayoutUV:Display:   Find: 2
-[2014.11.28-04.20.19:669][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:669][628]LogLayoutUV:Display:   Rasterize: 1784
-[2014.11.28-04.20.19:669][628]LogLayoutUV:Display:   Find: 4
-[2014.11.28-04.20.19:670][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:670][628]LogLayoutUV:Display:   Rasterize: 1782
-[2014.11.28-04.20.19:670][628]LogLayoutUV:Display:   Find: 1
-[2014.11.28-04.20.19:671][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:671][628]LogLayoutUV:Display:   Rasterize: 1785
-[2014.11.28-04.20.19:671][628]LogLayoutUV:Display:   Find: 3
-[2014.11.28-04.20.19:671][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:671][628]LogLayoutUV:Display:   Rasterize: 1760
-[2014.11.28-04.20.19:671][628]LogLayoutUV:Display:   Find: 1
-[2014.11.28-04.20.19:673][628]LogStaticMesh: Built static mesh [11.039343ms] /Game/Veins/Tunnel_Straight_01.Tunnel_Straight_01
-[2014.11.28-04.20.19:709][628]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/rbc.fbx)
-[2014.11.28-04.20.19:718][628]LogFbx: Loading FBX Scene from ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/rbc.fbx
-[2014.11.28-04.20.19:725][628]LogFbx: FBX Scene Loaded Succesfully
-[2014.11.28-04.20.19:738][628]LogFbx:Warning: Triangulating static mesh pSphere1
-[2014.11.28-04.20.19:765][628]LogFbx: == Initial material list:
-[2014.11.28-04.20.19:765][628]LogFbx: 0: blinn1
-[2014.11.28-04.20.19:765][628]LogFbx: == After sorting:
-[2014.11.28-04.20.19:765][628]LogFbx: 0: blinn1
-[2014.11.28-04.20.19:765][628]LogFbx: == Mapping table:
-[2014.11.28-04.20.19:765][628]LogFbx:   sort 0 -> 0
-[2014.11.28-04.20.19:794][628]LogStaticMesh: Building static mesh rbc...
-[2014.11.28-04.20.19:796][628]LogLayoutUV:Display: FindCharts: 0 ms
-[2014.11.28-04.20.19:796][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:796][628]LogLayoutUV:Display:   Rasterize: 1637
-[2014.11.28-04.20.19:796][628]LogLayoutUV:Display:   Find: 5
-[2014.11.28-04.20.19:797][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:797][628]LogLayoutUV:Display:   Rasterize: 2225
-[2014.11.28-04.20.19:797][628]LogLayoutUV:Display:   Find: 6
-[2014.11.28-04.20.19:798][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:798][628]LogLayoutUV:Display:   Rasterize: 1993
-[2014.11.28-04.20.19:798][628]LogLayoutUV:Display:   Find: 7
-[2014.11.28-04.20.19:799][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:799][628]LogLayoutUV:Display:   Rasterize: 2153
-[2014.11.28-04.20.19:799][628]LogLayoutUV:Display:   Find: 5
-[2014.11.28-04.20.19:800][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:800][628]LogLayoutUV:Display:   Rasterize: 2229
-[2014.11.28-04.20.19:800][628]LogLayoutUV:Display:   Find: 2
-[2014.11.28-04.20.19:801][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:801][628]LogLayoutUV:Display:   Rasterize: 2503
-[2014.11.28-04.20.19:801][628]LogLayoutUV:Display:   Find: 8
-[2014.11.28-04.20.19:801][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:801][628]LogLayoutUV:Display:   Rasterize: 1988
-[2014.11.28-04.20.19:801][628]LogLayoutUV:Display:   Find: 4
-[2014.11.28-04.20.19:802][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:802][628]LogLayoutUV:Display:   Rasterize: 1983
-[2014.11.28-04.20.19:802][628]LogLayoutUV:Display:   Find: 3
-[2014.11.28-04.20.19:803][628]LogStaticMesh: Built static mesh [37.540291ms] /Game/Veins/rbc.rbc
-[2014.11.28-04.20.19:822][628]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2014.11.28-04.20.19:840][628]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/obstacle_ramp.fbx)
-[2014.11.28-04.20.19:849][628]LogFbx: Loading FBX Scene from ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/obstacle_ramp.fbx
-[2014.11.28-04.20.19:858][628]LogFbx: FBX Scene Loaded Succesfully
-[2014.11.28-04.20.19:861][628]LogFbx:Warning: Triangulating static mesh Ramp
-[2014.11.28-04.20.19:862][628]LogFbx: == Initial material list:
-[2014.11.28-04.20.19:862][628]LogFbx: 0: lambert1
-[2014.11.28-04.20.19:862][628]LogFbx: == After sorting:
-[2014.11.28-04.20.19:862][628]LogFbx: 0: lambert1
-[2014.11.28-04.20.19:862][628]LogFbx: == Mapping table:
-[2014.11.28-04.20.19:862][628]LogFbx:   sort 0 -> 0
-[2014.11.28-04.20.19:875][628]LogStaticMesh: Building static mesh obstacle_ramp...
-[2014.11.28-04.20.19:875][628]LogLayoutUV:Display: FindCharts: 0 ms
-[2014.11.28-04.20.19:876][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:876][628]LogLayoutUV:Display:   Rasterize: 544
-[2014.11.28-04.20.19:876][628]LogLayoutUV:Display:   Find: 30
-[2014.11.28-04.20.19:876][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:876][628]LogLayoutUV:Display:   Rasterize: 787
-[2014.11.28-04.20.19:876][628]LogLayoutUV:Display:   Find: 19
-[2014.11.28-04.20.19:876][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:876][628]LogLayoutUV:Display:   Rasterize: 632
-[2014.11.28-04.20.19:876][628]LogLayoutUV:Display:   Find: 22
-[2014.11.28-04.20.19:877][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:877][628]LogLayoutUV:Display:   Rasterize: 437
-[2014.11.28-04.20.19:877][628]LogLayoutUV:Display:   Find: 14
-[2014.11.28-04.20.19:877][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:877][628]LogLayoutUV:Display:   Rasterize: 435
-[2014.11.28-04.20.19:878][628]LogLayoutUV:Display:   Find: 11
-[2014.11.28-04.20.19:878][628]LogStaticMesh: Built static mesh [14.923896ms] /Game/Veins/obstacle_ramp.obstacle_ramp
-[2014.11.28-04.20.19:884][628]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2014.11.28-04.20.19:905][628]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/obstacle_column.fbx)
-[2014.11.28-04.20.19:915][628]LogFbx: Loading FBX Scene from ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/obstacle_column.fbx
-[2014.11.28-04.20.19:925][628]LogFbx: FBX Scene Loaded Succesfully
-[2014.11.28-04.20.19:929][628]LogFbx:Warning: Triangulating static mesh pCone4
-[2014.11.28-04.20.19:930][628]LogFbx: == Initial material list:
-[2014.11.28-04.20.19:930][628]LogFbx: 0: lambert1
-[2014.11.28-04.20.19:930][628]LogFbx: == After sorting:
-[2014.11.28-04.20.19:930][628]LogFbx: 0: lambert1
-[2014.11.28-04.20.19:930][628]LogFbx: == Mapping table:
-[2014.11.28-04.20.19:930][628]LogFbx:   sort 0 -> 0
-[2014.11.28-04.20.19:943][628]LogStaticMesh: Building static mesh obstacle_column...
-[2014.11.28-04.20.19:943][628]LogLayoutUV:Display: FindCharts: 0 ms
-[2014.11.28-04.20.19:944][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:944][628]LogLayoutUV:Display:   Rasterize: 554
-[2014.11.28-04.20.19:944][628]LogLayoutUV:Display:   Find: 853
-[2014.11.28-04.20.19:944][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:944][628]LogLayoutUV:Display:   Rasterize: 464
-[2014.11.28-04.20.19:944][628]LogLayoutUV:Display:   Find: 270
-[2014.11.28-04.20.19:945][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:945][628]LogLayoutUV:Display:   Rasterize: 465
-[2014.11.28-04.20.19:945][628]LogLayoutUV:Display:   Find: 252
-[2014.11.28-04.20.19:945][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:945][628]LogLayoutUV:Display:   Rasterize: 456
-[2014.11.28-04.20.19:945][628]LogLayoutUV:Display:   Find: 261
-[2014.11.28-04.20.19:946][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.19:946][628]LogLayoutUV:Display:   Rasterize: 460
-[2014.11.28-04.20.19:946][628]LogLayoutUV:Display:   Find: 256
-[2014.11.28-04.20.19:946][628]LogStaticMesh: Built static mesh [15.733941ms] /Game/Veins/obstacle_column.obstacle_column
-[2014.11.28-04.20.19:953][628]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2014.11.28-04.20.19:965][628]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/muscle.fbx)
-[2014.11.28-04.20.19:973][628]LogFbx: Loading FBX Scene from ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/muscle.fbx
-[2014.11.28-04.20.19:983][628]LogFbx: FBX Scene Loaded Succesfully
-[2014.11.28-04.20.19:986][628]LogFbx:Warning: Triangulating static mesh pCylinder10
-[2014.11.28-04.20.20:092][628]LogFbx: == Initial material list:
-[2014.11.28-04.20.20:092][628]LogFbx: 0: lambert1
-[2014.11.28-04.20.20:092][628]LogFbx: == After sorting:
-[2014.11.28-04.20.20:092][628]LogFbx: 0: lambert1
-[2014.11.28-04.20.20:092][628]LogFbx: == Mapping table:
-[2014.11.28-04.20.20:092][628]LogFbx:   sort 0 -> 0
-[2014.11.28-04.20.20:094][628]LogStaticMesh: Building static mesh muscle...
-[2014.11.28-04.20.20:098][628]LogLayoutUV:Display: FindCharts: 0 ms
-[2014.11.28-04.20.20:099][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.20:099][628]LogLayoutUV:Display:   Rasterize: 1714
-[2014.11.28-04.20.20:099][628]LogLayoutUV:Display:   Find: 372
-[2014.11.28-04.20.20:099][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.20:100][628]LogLayoutUV:Display:   Rasterize: 1790
-[2014.11.28-04.20.20:100][628]LogLayoutUV:Display:   Find: 368
-[2014.11.28-04.20.20:101][628]LogLayoutUV:Display: PackCharts: 1 ms
-[2014.11.28-04.20.20:101][628]LogLayoutUV:Display:   Rasterize: 2575
-[2014.11.28-04.20.20:101][628]LogLayoutUV:Display:   Find: 680
-[2014.11.28-04.20.20:103][628]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.20.20:103][628]LogLayoutUV:Display:   Rasterize: 1807
-[2014.11.28-04.20.20:103][628]LogLayoutUV:Display:   Find: 386
-[2014.11.28-04.20.20:111][628]LogStaticMesh: Built static mesh [17.060802ms] /Game/Veins/muscle.muscle
-[2014.11.28-04.20.20:134][628]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2014.11.28-04.20.20:134][628]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
-[2014.11.28-04.20.20:170][628]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2014.11.28-04.20.20:171][628]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Veins'
-[2014.11.28-04.20.20:171][628]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Veins'
-[2014.11.28-04.20.20:171][628]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Veins'
-[2014.11.28-04.20.20:172][628]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Veins'
-[2014.11.28-04.20.20:172][628]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Veins'
-[2014.11.28-04.20.20:173][628]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Veins'
-[2014.11.28-04.20.20:173][628]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Veins'
-[2014.11.28-04.20.20:173][628]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Veins'
-[2014.11.28-04.20.34:656][139]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
-[2014.11.28-04.20.38:095][239]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCaptureLeft)
-[2014.11.28-04.20.42:858][366]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCaptureLeft)
-[2014.11.28-04.20.43:451][383]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCaptureRight)
-[2014.11.28-04.21.04:930][885]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (Global PostProcess)
-[2014.11.28-04.21.05:869][914]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.11.28-04.21.05:869][914]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
-[2014.11.28-04.21.05:933][914]LogPlayLevel: [PIE] Compiling GameMap before PIE...
-[2014.11.28-04.21.06:071][914]LogPlayLevel: PIE:  Blueprint regeneration took 202 ms (2 blueprints)
-[2014.11.28-04.21.06:072][914]PIE: New page: PIE session: GameMap (Nov 27, 2014, 6:21:06 PM)
-[2014.11.28-04.21.06:122][914]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050750s)
-[2014.11.28-04.21.06:123][914]LogPlayLevel: PIE: World Init took: (0.000716s)
-[2014.11.28-04.21.06:123][914]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameMap.GameMap to /Game/Maps/UEDPIE_0_GameMap.GameMap (0.051756s)
-[2014.11.28-04.21.06:175][914]LogLinker:Warning: Asset '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Blueprints/PhysicsBallBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.28-04.21.06:236][914]LogWorld: Game class is 'RollingGameMode_C'
-[2014.11.28-04.21.06:237][914]LogAIModule: Creating AISystem for world GameMap
-[2014.11.28-04.21.06:238][914]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 0) at 2014.11.27-23.21.06
-[2014.11.28-04.21.06:238][914]LogWorld: Bringing up level for play took: 0.001326
-[2014.11.28-04.21.06:240][914]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_GameMap -0.625
-[2014.11.28-04.21.08:301][ 31]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F808CC0
-[2014.11.28-04.21.11:090][109]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2014.11.28-04.21.14:665][206]LogActorFactory: Actor Factory created Tunnel_Straight_01
-[2014.11.28-04.21.15:447][224]LogActorFactory: Actor Factory created Tunnel_Straight_01
-[2014.11.28-04.21.21:235][353]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2014.11.28-04.21.21:993][368]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tunnel_Straight_01)
-[2014.11.28-04.21.30:622][522]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tunnel_Straight_01)
-[2014.11.28-04.21.38:994][710]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2014.11.28-04.21.40:936][749]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2014.11.28-04.21.41:585][760]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.11.28-04.21.41:585][760]LogPlayLevel: [PIE] Compiling GameMap before PIE...
-[2014.11.28-04.21.41:724][760]LogPlayLevel: PIE:  Blueprint regeneration took 138 ms (1 blueprints)
-[2014.11.28-04.21.41:724][760]PIE: New page: PIE session: GameMap (Nov 27, 2014, 6:21:41 PM)
-[2014.11.28-04.21.41:766][760]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042115s)
-[2014.11.28-04.21.41:767][760]LogPlayLevel: PIE: World Init took: (0.000790s)
-[2014.11.28-04.21.41:767][760]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameMap.GameMap to /Game/Maps/UEDPIE_0_GameMap.GameMap (0.043205s)
-[2014.11.28-04.21.41:807][760]LogWorld: Game class is 'RollingGameMode_C'
-[2014.11.28-04.21.41:808][760]LogAIModule: Creating AISystem for world GameMap
-[2014.11.28-04.21.41:809][760]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 0) at 2014.11.27-23.21.41
-[2014.11.28-04.21.41:810][760]LogWorld: Bringing up level for play took: 0.001646
-[2014.11.28-04.21.41:812][760]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_GameMap 0.946
-[2014.11.28-04.21.43:302][808]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F8094E0
-[2014.11.28-04.21.44:344][828]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tunnel_Straight_01)
-[2014.11.28-04.22.17:579][468]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.11.28-04.22.17:580][468]LogPlayLevel: [PIE] Compiling GameMap before PIE...
-[2014.11.28-04.22.17:676][468]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016B474C0
-[2014.11.28-04.22.17:676][468]LogPlayLevel: PIE:  Blueprint regeneration took 96 ms (1 blueprints)
-[2014.11.28-04.22.17:676][468]PIE: New page: PIE session: GameMap (Nov 27, 2014, 6:22:17 PM)
-[2014.11.28-04.22.17:713][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037234s)
-[2014.11.28-04.22.17:714][468]LogPlayLevel: PIE: World Init took: (0.000884s)
-[2014.11.28-04.22.17:715][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameMap.GameMap to /Game/Maps/UEDPIE_0_GameMap.GameMap (0.038375s)
-[2014.11.28-04.22.17:753][468]LogWorld: Game class is 'RollingGameMode_C'
-[2014.11.28-04.22.17:756][468]LogAIModule: Creating AISystem for world GameMap
-[2014.11.28-04.22.17:757][468]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 0) at 2014.11.27-23.22.17
-[2014.11.28-04.22.17:758][468]LogWorld: Bringing up level for play took: 0.001736
-[2014.11.28-04.22.17:759][468]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_GameMap 0.892
-[2014.11.28-04.22.20:489][575]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016B7DD00
-[2014.11.28-04.22.26:897][718]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.11.28-04.22.26:897][718]LogPlayLevel: [PIE] Compiling GameMap before PIE...
-[2014.11.28-04.22.26:993][718]LogPlayLevel: PIE:  Blueprint regeneration took 96 ms (1 blueprints)
-[2014.11.28-04.22.26:994][718]PIE: New page: PIE session: GameMap (Nov 27, 2014, 6:22:26 PM)
-[2014.11.28-04.22.27:035][718]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041057s)
-[2014.11.28-04.22.27:036][718]LogPlayLevel: PIE: World Init took: (0.000886s)
-[2014.11.28-04.22.27:036][718]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameMap.GameMap to /Game/Maps/UEDPIE_0_GameMap.GameMap (0.042215s)
-[2014.11.28-04.22.27:072][718]LogWorld: Game class is 'RollingGameMode_C'
-[2014.11.28-04.22.27:073][718]LogAIModule: Creating AISystem for world GameMap
-[2014.11.28-04.22.27:074][718]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 0) at 2014.11.27-23.22.27
-[2014.11.28-04.22.27:075][718]LogWorld: Bringing up level for play took: 0.001939
-[2014.11.28-04.22.27:077][718]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_GameMap 0.209
-[2014.11.28-04.22.30:683][868]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CEFA3E0
-[2014.11.28-04.22.32:967][919]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.11.28-04.22.32:967][919]LogPlayLevel: [PIE] Compiling GameMap before PIE...
-[2014.11.28-04.22.33:053][919]LogPlayLevel: PIE:  Blueprint regeneration took 86 ms (1 blueprints)
-[2014.11.28-04.22.33:053][919]PIE: New page: PIE session: GameMap (Nov 27, 2014, 6:22:33 PM)
-[2014.11.28-04.22.33:093][919]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039863s)
-[2014.11.28-04.22.33:094][919]LogPlayLevel: PIE: World Init took: (0.000752s)
-[2014.11.28-04.22.33:094][919]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameMap.GameMap to /Game/Maps/UEDPIE_0_GameMap.GameMap (0.040849s)
-[2014.11.28-04.22.33:131][919]LogWorld: Game class is 'RollingGameMode_C'
-[2014.11.28-04.22.33:132][919]LogAIModule: Creating AISystem for world GameMap
-[2014.11.28-04.22.33:134][919]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 0) at 2014.11.27-23.22.33
-[2014.11.28-04.22.33:134][919]LogWorld: Bringing up level for play took: 0.001900
-[2014.11.28-04.22.33:137][919]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_GameMap 0.269
-[2014.11.28-04.22.34:455][960]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F8D7240
-[2014.11.28-04.22.35:325][979]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tunnel_Straight_01)
-[2014.11.28-04.23.34:735][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GameMap" FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Maps/GameMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2014.11.28-04.23.34:871][ 37]LogSavePackage: Save=72.514832ms
-[2014.11.28-04.23.34:871][ 37]LogSavePackage: Moving '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Saved/GameMap7E569F154AD7872A8ED5028718C62218.tmp' to '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Maps/GameMap.umap'
-[2014.11.28-04.23.34:907][ 37]LogFileHelpers: Saving map 'GameMap' took 0.281
-[2014.11.28-04.23.34:925][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Veins/Tunnel_Turn_Tight" FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Veins/Tunnel_Turn_Tight.uasset" SILENT=true
-[2014.11.28-04.23.35:197][ 37]LogSavePackage: Save=268.356689ms
-[2014.11.28-04.23.35:197][ 37]LogSavePackage: Moving '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Saved/Tunnel_Turn_Tight12CAECC646925FDB10F2EB91100F6E7F.tmp' to '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Veins/Tunnel_Turn_Tight.uasset'
-[2014.11.28-04.23.35:219][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Veins/Tunnel_Turn_Shallow" FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Veins/Tunnel_Turn_Shallow.uasset" SILENT=true
-[2014.11.28-04.23.35:500][ 37]LogSavePackage: Save=276.526062ms
-[2014.11.28-04.23.35:500][ 37]LogSavePackage: Moving '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Saved/Tunnel_Turn_Shallow983BA9AB4C965B3833FC7FB7FF9923DD.tmp' to '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Veins/Tunnel_Turn_Shallow.uasset'
-[2014.11.28-04.23.35:527][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Veins/Tunnel_Straight_02" FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Veins/Tunnel_Straight_02.uasset" SILENT=true
-[2014.11.28-04.23.35:795][ 37]LogSavePackage: Save=263.110443ms
-[2014.11.28-04.23.35:795][ 37]LogSavePackage: Moving '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Saved/Tunnel_Straight_02658A1CB34E07BFB79688DAAF535FF5E6.tmp' to '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Veins/Tunnel_Straight_02.uasset'
-[2014.11.28-04.23.35:822][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Veins/Tunnel_Straight_01" FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Veins/Tunnel_Straight_01.uasset" SILENT=true
-[2014.11.28-04.23.36:080][ 37]LogSavePackage: Save=253.843323ms
-[2014.11.28-04.23.36:080][ 37]LogSavePackage: Moving '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Saved/Tunnel_Straight_01C968E85249B06DF328CA1CAC1F4D21B1.tmp' to '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Veins/Tunnel_Straight_01.uasset'
-[2014.11.28-04.23.36:107][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Veins/rbc" FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Veins/rbc.uasset" SILENT=true
-[2014.11.28-04.23.36:356][ 37]LogSavePackage: Save=246.197372ms
-[2014.11.28-04.23.36:356][ 37]LogSavePackage: Moving '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Saved/rbc85C17EE44F2AA0093C4F3F81C8272D3E.tmp' to '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Veins/rbc.uasset'
-[2014.11.28-04.23.36:382][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Veins/obstacle_ramp" FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Veins/obstacle_ramp.uasset" SILENT=true
-[2014.11.28-04.23.36:645][ 37]LogSavePackage: Save=260.232422ms
-[2014.11.28-04.23.36:645][ 37]LogSavePackage: Moving '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Saved/obstacle_rampF645E6454F1818FAF0585AB4744B1DAC.tmp' to '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Veins/obstacle_ramp.uasset'
-[2014.11.28-04.23.36:672][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Veins/obstacle_column" FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Veins/obstacle_column.uasset" SILENT=true
-[2014.11.28-04.23.36:821][ 37]LogSavePackage: Save=145.441284ms
-[2014.11.28-04.23.36:821][ 37]LogSavePackage: Moving '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Saved/obstacle_column84AE9BBB4F3331F15FA013A497E500B7.tmp' to '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Veins/obstacle_column.uasset'
-[2014.11.28-04.23.36:854][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Veins/muscle" FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Veins/muscle.uasset" SILENT=true
-[2014.11.28-04.23.36:939][ 37]LogSavePackage: Save=81.939209ms
-[2014.11.28-04.23.36:939][ 37]LogSavePackage: Moving '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Saved/muscle7118DB4A4DCD56C4D12BC0B502BD6ACF.tmp' to '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Veins/muscle.uasset'
-[2014.11.28-04.23.37:939][ 60]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.11.28-04.23.37:939][ 60]LogPlayLevel: [PIE] Compiling GameMap before PIE...
-[2014.11.28-04.23.38:026][ 60]LogPlayLevel: PIE:  Blueprint regeneration took 86 ms (1 blueprints)
-[2014.11.28-04.23.38:026][ 60]PIE: New page: PIE session: GameMap (Nov 27, 2014, 6:23:38 PM)
-[2014.11.28-04.23.38:068][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041600s)
-[2014.11.28-04.23.38:069][ 60]LogPlayLevel: PIE: World Init took: (0.000924s)
-[2014.11.28-04.23.38:069][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameMap.GameMap to /Game/Maps/UEDPIE_0_GameMap.GameMap (0.042815s)
-[2014.11.28-04.23.38:109][ 60]LogWorld: Game class is 'RollingGameMode_C'
-[2014.11.28-04.23.38:111][ 60]LogAIModule: Creating AISystem for world GameMap
-[2014.11.28-04.23.38:112][ 60]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 0) at 2014.11.27-23.23.38
-[2014.11.28-04.23.38:112][ 60]LogWorld: Bringing up level for play took: 0.001603
-[2014.11.28-04.23.38:114][ 60]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_GameMap -0.755
-[2014.11.28-04.23.41:543][235]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C55F7E0
-[2014.11.28-04.23.41:575][236]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001FAA4400
-[2014.11.28-04.23.42:905][279]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.11.28-04.23.42:905][279]LogPlayLevel: [PIE] Compiling GameMap before PIE...
-[2014.11.28-04.23.43:010][279]LogPlayLevel: PIE:  Blueprint regeneration took 105 ms (1 blueprints)
-[2014.11.28-04.23.43:010][279]PIE: New page: PIE session: GameMap (Nov 27, 2014, 6:23:43 PM)
-[2014.11.28-04.23.43:070][279]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059808s)
-[2014.11.28-04.23.43:071][279]LogPlayLevel: PIE: World Init took: (0.000799s)
-[2014.11.28-04.23.43:071][279]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameMap.GameMap to /Game/Maps/UEDPIE_0_GameMap.GameMap (0.060863s)
-[2014.11.28-04.23.43:107][279]LogWorld: Game class is 'RollingGameMode_C'
-[2014.11.28-04.23.43:108][279]LogAIModule: Creating AISystem for world GameMap
-[2014.11.28-04.23.43:109][279]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 0) at 2014.11.27-23.23.43
-[2014.11.28-04.23.43:110][279]LogWorld: Bringing up level for play took: 0.001406
-[2014.11.28-04.23.43:112][279]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_GameMap 0.243
-[2014.11.28-04.23.45:567][416]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001EBFF740
-[2014.11.28-04.24.05:792][536]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkyShereBlueprint)
-[2014.11.28-04.24.07:164][575]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
-[2014.11.28-04.24.11:414][758]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2014.11.28-04.24.13:167][821]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2014.11.28-04.24.13:643][836]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tunnel_Straight_01)
-[2014.11.28-04.24.14:303][855]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tunnel_Straight_01)
-[2014.11.28-04.24.14:441][857]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Tunnel_Straight_01)
-[2014.11.28-04.24.15:350][884]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Tunnel_Straight_01)
-[2014.11.28-04.26.34:713][ 44]LogEditorTransaction: Undo Translate Collision
-[2014.11.28-04.26.38:997][128]LogEditorTransaction: Undo Translate Collision
-[2014.11.28-04.26.45:372][255]LogEditorTransaction: Undo Translate Collision
-[2014.11.28-04.26.46:079][264]LogEditorTransaction: Undo Translate Collision
-[2014.11.28-04.26.47:316][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GameMap" FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Maps/GameMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2014.11.28-04.26.47:429][288]LogSavePackage: Save=77.100197ms
-[2014.11.28-04.26.47:429][288]LogSavePackage: Moving '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Saved/GameMapBA54802147AC2AB427346584EF098A8D.tmp' to '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Maps/GameMap.umap'
-[2014.11.28-04.26.47:482][288]LogFileHelpers: Saving map 'GameMap' took 0.284
-[2014.11.28-04.26.47:505][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Veins/Tunnel_Straight_01" FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Veins/Tunnel_Straight_01.uasset" SILENT=true
-[2014.11.28-04.26.47:782][288]LogSavePackage: Save=264.009583ms
-[2014.11.28-04.26.47:782][288]LogSavePackage: Moving '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Saved/Tunnel_Straight_014A435FA7403D675222E9D4B7240C8795.tmp' to '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Veins/Tunnel_Straight_01.uasset'
-[2014.11.28-04.26.48:799][308]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.11.28-04.26.48:799][308]LogPlayLevel: [PIE] Compiling GameMap before PIE...
-[2014.11.28-04.26.48:895][308]LogPlayLevel: PIE:  Blueprint regeneration took 95 ms (1 blueprints)
-[2014.11.28-04.26.48:895][308]PIE: New page: PIE session: GameMap (Nov 27, 2014, 6:26:48 PM)
-[2014.11.28-04.26.48:940][308]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045343s)
-[2014.11.28-04.26.48:941][308]LogPlayLevel: PIE: World Init took: (0.000943s)
-[2014.11.28-04.26.48:942][308]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameMap.GameMap to /Game/Maps/UEDPIE_0_GameMap.GameMap (0.046601s)
-[2014.11.28-04.26.48:979][308]LogWorld: Game class is 'RollingGameMode_C'
-[2014.11.28-04.26.48:980][308]LogAIModule: Creating AISystem for world GameMap
-[2014.11.28-04.26.48:981][308]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 0) at 2014.11.27-23.26.48
-[2014.11.28-04.26.48:982][308]LogWorld: Bringing up level for play took: 0.001348
-[2014.11.28-04.26.48:983][308]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_GameMap 0.109
-[2014.11.28-04.26.52:463][394]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CEFA840
-[2014.11.28-04.27.54:676][901]Cmd: TRANSACTION UNDO
-[2014.11.28-04.27.54:676][901]LogEditorTransaction: Undo Delete Collision
-[2014.11.28-04.28.15:756][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Veins/Tunnel_Straight_01" FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Veins/Tunnel_Straight_01.uasset" SILENT=true
-[2014.11.28-04.28.15:777][509]LogSavePackage: Save=11.018085ms
-[2014.11.28-04.28.15:777][509]LogSavePackage: Moving '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Saved/Tunnel_Straight_0151FA85D140FB4C06D14D37810F85A899.tmp' to '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Veins/Tunnel_Straight_01.uasset'
-[2014.11.28-04.28.17:968][553]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.11.28-04.28.17:968][553]LogPlayLevel: [PIE] Compiling GameMap before PIE...
-[2014.11.28-04.28.18:093][553]LogPlayLevel: PIE:  Blueprint regeneration took 124 ms (1 blueprints)
-[2014.11.28-04.28.18:093][553]PIE: New page: PIE session: GameMap (Nov 27, 2014, 6:28:18 PM)
-[2014.11.28-04.28.18:136][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042774s)
-[2014.11.28-04.28.18:137][553]LogPlayLevel: PIE: World Init took: (0.000900s)
-[2014.11.28-04.28.18:137][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameMap.GameMap to /Game/Maps/UEDPIE_0_GameMap.GameMap (0.043931s)
-[2014.11.28-04.28.18:175][553]LogWorld: Game class is 'RollingGameMode_C'
-[2014.11.28-04.28.18:177][553]LogAIModule: Creating AISystem for world GameMap
-[2014.11.28-04.28.18:178][553]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 0) at 2014.11.27-23.28.18
-[2014.11.28-04.28.18:179][553]LogWorld: Bringing up level for play took: 0.001679
-[2014.11.28-04.28.18:180][553]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_GameMap -0.695
-[2014.11.28-04.28.19:609][594]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000249E8C20
-[2014.11.28-04.29.00:466][248]LogEditorTransaction: Undo Translate Collision
-[2014.11.28-04.29.02:300][294]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tunnel_Straight_01)
-[2014.11.28-04.29.06:931][383]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2014.11.28-04.29.08:027][404]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2014.11.28-04.29.09:442][430]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.11.28-04.29.09:442][430]LogPlayLevel: [PIE] Compiling GameMap before PIE...
-[2014.11.28-04.29.09:539][430]LogPlayLevel: PIE:  Blueprint regeneration took 96 ms (1 blueprints)
-[2014.11.28-04.29.09:539][430]PIE: New page: PIE session: GameMap (Nov 27, 2014, 6:29:09 PM)
-[2014.11.28-04.29.09:584][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044617s)
-[2014.11.28-04.29.09:585][430]LogPlayLevel: PIE: World Init took: (0.000850s)
-[2014.11.28-04.29.09:585][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameMap.GameMap to /Game/Maps/UEDPIE_0_GameMap.GameMap (0.045731s)
-[2014.11.28-04.29.09:624][430]LogWorld: Game class is 'RollingGameMode_C'
-[2014.11.28-04.29.09:625][430]LogAIModule: Creating AISystem for world GameMap
-[2014.11.28-04.29.09:626][430]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 0) at 2014.11.27-23.29.09
-[2014.11.28-04.29.09:626][430]LogWorld: Bringing up level for play took: 0.001403
-[2014.11.28-04.29.09:628][430]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_GameMap 0.751
-[2014.11.28-04.29.11:061][471]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016D2B6A0
-[2014.11.28-04.29.11:951][488]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tunnel_Straight_01)
-[2014.11.28-04.29.16:733][580]Cmd: TRANSACTION UNDO
-[2014.11.28-04.29.16:733][580]LogEditorTransaction: Undo Move Actors
-[2014.11.28-04.29.17:771][595]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Tunnel_Straight_01)
-[2014.11.28-04.29.21:230][720]Cmd: DUPLICATE
-[2014.11.28-04.29.21:230][720]Cmd: ACTOR DUPLICATE
-[2014.11.28-04.29.27:527][829]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.11.28-04.29.27:527][829]LogPlayLevel: [PIE] Compiling GameMap before PIE...
-[2014.11.28-04.29.27:618][829]LogPlayLevel: PIE:  Blueprint regeneration took 90 ms (1 blueprints)
-[2014.11.28-04.29.27:618][829]PIE: New page: PIE session: GameMap (Nov 27, 2014, 6:29:27 PM)
-[2014.11.28-04.29.27:662][829]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043999s)
-[2014.11.28-04.29.27:663][829]LogPlayLevel: PIE: World Init took: (0.000891s)
-[2014.11.28-04.29.27:663][829]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameMap.GameMap to /Game/Maps/UEDPIE_0_GameMap.GameMap (0.045264s)
-[2014.11.28-04.29.27:697][829]LogWorld: Game class is 'RollingGameMode_C'
-[2014.11.28-04.29.27:698][829]LogAIModule: Creating AISystem for world GameMap
-[2014.11.28-04.29.27:699][829]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 0) at 2014.11.27-23.29.27
-[2014.11.28-04.29.27:699][829]LogWorld: Bringing up level for play took: 0.001665
-[2014.11.28-04.29.27:702][829]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_GameMap 0.824
-[2014.11.28-04.29.37:622][103]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019FCA2A0
-[2014.11.28-04.30.35:404][881]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
-[2014.11.28-04.30.46:394][ 66]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Veins'
-[2014.11.28-04.31.55:844][728]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tunnel_Straight_2)
-[2014.11.28-04.31.56:850][756]Cmd: DELETE
-[2014.11.28-04.31.56:850][756]Cmd: ACTOR DELETE
-[2014.11.28-04.31.56:852][756]LogEditorActor: Deleted Actor: StaticMeshActor
-[2014.11.28-04.31.56:888][756]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000249EA7A0
-[2014.11.28-04.31.56:888][756]LogEditorActor: Deleted 1 Actors (0.038 secs)
-[2014.11.28-04.32.06:406][880]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/Tunnel_Straight_01.fbx)
-[2014.11.28-04.32.06:410][880]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2014.11.28-04.32.06:410][880]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2014.11.28-04.32.06:410][880]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2014.11.28-04.32.06:410][880]LogFbx: ItemName: NodeAttribute, ItemCount : 2
-[2014.11.28-04.32.06:410][880]LogFbx: ItemName: Model, ItemCount : 3
-[2014.11.28-04.32.06:410][880]LogFbx: ItemName: Geometry, ItemCount : 1
-[2014.11.28-04.32.06:410][880]LogFbx: ItemName: Material, ItemCount : 1
-[2014.11.28-04.32.15:285][880]LogFbx: Loading FBX Scene from ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/Tunnel_Straight_01.fbx
-[2014.11.28-04.32.15:297][880]LogFbx: FBX Scene Loaded Succesfully
-[2014.11.28-04.32.15:301][880]LogFbx:Warning: Triangulating static mesh pCylinder1
-[2014.11.28-04.32.15:367][880]LogFbx: == Initial material list:
-[2014.11.28-04.32.15:367][880]LogFbx: 0: lambert1
-[2014.11.28-04.32.15:367][880]LogFbx: == After sorting:
-[2014.11.28-04.32.15:367][880]LogFbx: 0: lambert1
-[2014.11.28-04.32.15:367][880]LogFbx: == Mapping table:
-[2014.11.28-04.32.15:367][880]LogFbx:   sort 0 -> 0
-[2014.11.28-04.32.15:384][880]LogStaticMesh: Building static mesh Tunnel_Straight_01...
-[2014.11.28-04.32.15:387][880]LogLayoutUV:Display: FindCharts: 0 ms
-[2014.11.28-04.32.15:388][880]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.32.15:388][880]LogLayoutUV:Display:   Rasterize: 2199
-[2014.11.28-04.32.15:388][880]LogLayoutUV:Display:   Find: 4
-[2014.11.28-04.32.15:389][880]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.32.15:389][880]LogLayoutUV:Display:   Rasterize: 1748
-[2014.11.28-04.32.15:389][880]LogLayoutUV:Display:   Find: 4
-[2014.11.28-04.32.15:390][880]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.32.15:390][880]LogLayoutUV:Display:   Rasterize: 1748
-[2014.11.28-04.32.15:390][880]LogLayoutUV:Display:   Find: 7
-[2014.11.28-04.32.15:390][880]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.32.15:390][880]LogLayoutUV:Display:   Rasterize: 1712
-[2014.11.28-04.32.15:390][880]LogLayoutUV:Display:   Find: 4
-[2014.11.28-04.32.15:391][880]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.32.15:391][880]LogLayoutUV:Display:   Rasterize: 1803
-[2014.11.28-04.32.15:391][880]LogLayoutUV:Display:   Find: 3
-[2014.11.28-04.32.15:392][880]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.32.15:392][880]LogLayoutUV:Display:   Rasterize: 1764
-[2014.11.28-04.32.15:392][880]LogLayoutUV:Display:   Find: 4
-[2014.11.28-04.32.15:392][880]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.32.15:392][880]LogLayoutUV:Display:   Rasterize: 2122
-[2014.11.28-04.32.15:392][880]LogLayoutUV:Display:   Find: 7
-[2014.11.28-04.32.15:394][880]LogLayoutUV:Display: PackCharts: 1 ms
-[2014.11.28-04.32.15:394][880]LogLayoutUV:Display:   Rasterize: 2913
-[2014.11.28-04.32.15:394][880]LogLayoutUV:Display:   Find: 9
-[2014.11.28-04.32.15:396][880]LogStaticMesh: Built static mesh [28.472914ms] /Game/Veins/Tunnel_Straight_01.Tunnel_Straight_01
-[2014.11.28-04.32.15:411][880]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2014.11.28-04.32.15:411][880]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Veins'
-[2014.11.28-04.32.16:456][912]LogActorFactory: Actor Factory created Tunnel_Straight_01
-[2014.11.28-04.32.17:202][946]LogActorFactory: Actor Factory created Tunnel_Straight_01
-[2014.11.28-04.32.22:184][111]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
-[2014.11.28-04.32.23:648][157]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tunnel_Straight_2)
-[2014.11.28-04.32.26:622][245]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCaptureRight)
-[2014.11.28-04.32.30:559][358]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
-[2014.11.28-04.32.31:666][390]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tunnel_Straight_2)
-[2014.11.28-04.32.35:729][469]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.32.35:729][469]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.32.35:729][469]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.32.36:631][484]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.32.36:631][484]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.32.36:631][484]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.32.39:041][518]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.32.39:041][518]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.32.39:041][518]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.32.43:302][602]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.32.43:302][602]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.32.43:302][602]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.32.44:688][630]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.32.44:688][630]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.32.44:688][630]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.32.47:584][700]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.32.47:584][700]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.32.47:584][700]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.32.55:439][878]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.11.28-04.32.55:439][878]LogPlayLevel: [PIE] Compiling GameMap before PIE...
-[2014.11.28-04.32.55:545][878]LogPlayLevel: PIE:  Blueprint regeneration took 105 ms (1 blueprints)
-[2014.11.28-04.32.55:545][878]PIE: New page: PIE session: GameMap (Nov 27, 2014, 6:32:55 PM)
-[2014.11.28-04.32.55:595][878]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050191s)
-[2014.11.28-04.32.55:596][878]LogPlayLevel: PIE: World Init took: (0.000943s)
-[2014.11.28-04.32.55:596][878]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameMap.GameMap to /Game/Maps/UEDPIE_0_GameMap.GameMap (0.051377s)
-[2014.11.28-04.32.55:633][878]LogWorld: Game class is 'RollingGameMode_C'
-[2014.11.28-04.32.55:635][878]LogAIModule: Creating AISystem for world GameMap
-[2014.11.28-04.32.55:636][878]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 0) at 2014.11.27-23.32.55
-[2014.11.28-04.32.55:637][878]LogWorld: Bringing up level for play took: 0.001874
-[2014.11.28-04.32.55:639][878]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_GameMap 0.756
-[2014.11.28-04.32.57:269][944]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E63CD60
-[2014.11.28-04.33.00:232][  8]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.11.28-04.33.00:232][  8]LogPlayLevel: [PIE] Compiling GameMap before PIE...
-[2014.11.28-04.33.00:346][  8]LogPlayLevel: PIE:  Blueprint regeneration took 114 ms (1 blueprints)
-[2014.11.28-04.33.00:346][  8]PIE: New page: PIE session: GameMap (Nov 27, 2014, 6:33:00 PM)
-[2014.11.28-04.33.00:388][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042053s)
-[2014.11.28-04.33.00:389][  8]LogPlayLevel: PIE: World Init took: (0.000842s)
-[2014.11.28-04.33.00:389][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameMap.GameMap to /Game/Maps/UEDPIE_0_GameMap.GameMap (0.043145s)
-[2014.11.28-04.33.00:429][  8]LogWorld: Game class is 'RollingGameMode_C'
-[2014.11.28-04.33.00:430][  8]LogAIModule: Creating AISystem for world GameMap
-[2014.11.28-04.33.00:431][  8]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 0) at 2014.11.27-23.33.00
-[2014.11.28-04.33.00:431][  8]LogWorld: Bringing up level for play took: 0.001593
-[2014.11.28-04.33.00:433][  8]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_GameMap -0.449
-[2014.11.28-04.33.02:445][ 90]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F8D4EA0
-[2014.11.28-04.33.05:533][162]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.11.28-04.33.05:533][162]LogPlayLevel: [PIE] Compiling GameMap before PIE...
-[2014.11.28-04.33.05:623][162]LogPlayLevel: PIE:  Blueprint regeneration took 90 ms (1 blueprints)
-[2014.11.28-04.33.05:623][162]PIE: New page: PIE session: GameMap (Nov 27, 2014, 6:33:05 PM)
-[2014.11.28-04.33.05:665][162]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041776s)
-[2014.11.28-04.33.05:666][162]LogPlayLevel: PIE: World Init took: (0.000890s)
-[2014.11.28-04.33.05:666][162]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameMap.GameMap to /Game/Maps/UEDPIE_0_GameMap.GameMap (0.042930s)
-[2014.11.28-04.33.05:704][162]LogWorld: Game class is 'RollingGameMode_C'
-[2014.11.28-04.33.05:705][162]LogAIModule: Creating AISystem for world GameMap
-[2014.11.28-04.33.05:706][162]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 0) at 2014.11.27-23.33.05
-[2014.11.28-04.33.05:707][162]LogWorld: Bringing up level for play took: 0.001343
-[2014.11.28-04.33.05:709][162]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_GameMap 0.826
-[2014.11.28-04.33.11:611][421]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F8D4900
-[2014.11.28-04.33.12:490][441]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.11.28-04.33.12:490][441]LogPlayLevel: [PIE] Compiling GameMap before PIE...
-[2014.11.28-04.33.12:589][441]LogPlayLevel: PIE:  Blueprint regeneration took 98 ms (1 blueprints)
-[2014.11.28-04.33.12:589][441]PIE: New page: PIE session: GameMap (Nov 27, 2014, 6:33:12 PM)
-[2014.11.28-04.33.12:627][441]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038108s)
-[2014.11.28-04.33.12:628][441]LogPlayLevel: PIE: World Init took: (0.000877s)
-[2014.11.28-04.33.12:628][441]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameMap.GameMap to /Game/Maps/UEDPIE_0_GameMap.GameMap (0.039265s)
-[2014.11.28-04.33.12:667][441]LogWorld: Game class is 'RollingGameMode_C'
-[2014.11.28-04.33.12:668][441]LogAIModule: Creating AISystem for world GameMap
-[2014.11.28-04.33.12:669][441]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 0) at 2014.11.27-23.33.12
-[2014.11.28-04.33.12:669][441]LogWorld: Bringing up level for play took: 0.001343
-[2014.11.28-04.33.12:672][441]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_GameMap -0.211
-[2014.11.28-04.33.14:206][501]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B592A20
-[2014.11.28-04.33.17:674][572]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.11.28-04.33.17:674][572]LogPlayLevel: [PIE] Compiling GameMap before PIE...
-[2014.11.28-04.33.17:765][572]LogPlayLevel: PIE:  Blueprint regeneration took 91 ms (1 blueprints)
-[2014.11.28-04.33.17:765][572]PIE: New page: PIE session: GameMap (Nov 27, 2014, 6:33:17 PM)
-[2014.11.28-04.33.17:805][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039807s)
-[2014.11.28-04.33.17:806][572]LogPlayLevel: PIE: World Init took: (0.000892s)
-[2014.11.28-04.33.17:806][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameMap.GameMap to /Game/Maps/UEDPIE_0_GameMap.GameMap (0.040966s)
-[2014.11.28-04.33.17:840][572]LogWorld: Game class is 'RollingGameMode_C'
-[2014.11.28-04.33.17:841][572]LogAIModule: Creating AISystem for world GameMap
-[2014.11.28-04.33.17:842][572]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 0) at 2014.11.27-23.33.17
-[2014.11.28-04.33.17:843][572]LogWorld: Bringing up level for play took: 0.001756
-[2014.11.28-04.33.17:844][572]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_GameMap 0.962
-[2014.11.28-04.33.19:532][625]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B5936A0
-[2014.11.28-04.33.20:499][643]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tunnel_Straight_2)
-[2014.11.28-04.33.20:665][645]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Tunnel_Straight_2)
-[2014.11.28-04.34.02:904][590]LogRenderer:Warning: Reallocating scene render targets to support 1432x944.
-[2014.11.28-04.37.02:568][666]LogEditorTransaction: Undo Translate Collision
-[2014.11.28-04.37.18:016][755]LogSavePackage: Save=70.562653ms
-[2014.11.28-04.37.18:016][755]LogSavePackage: Moving '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Saved/GameMap_Auto1D689C5BC43FCCD1D4243FEA2F1F8F1D5.tmp' to '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Saved/Autosaves/Game/Maps/GameMap_Auto1.umap'
-[2014.11.28-04.37.18:027][755]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/GameMap' took 0.160
-[2014.11.28-04.37.18:027][755]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.160
-[2014.11.28-04.37.18:039][755]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Veins/Tunnel_Straight_01] ([1] browsable assets)...
-[2014.11.28-04.37.18:092][755]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Veins/Tunnel_Straight_01.Tunnel_Straight_01]
-[2014.11.28-04.37.18:092][755]OBJ SavePackage: Finished generating thumbnails for package [/Game/Veins/Tunnel_Straight_01]
-[2014.11.28-04.37.18:392][755]LogSavePackage: Save=248.743698ms
-[2014.11.28-04.37.18:392][755]LogSavePackage: Moving '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Saved/Tunnel_Straight_01_Auto135603E2F4A62F9E7CF1BA696CCF9E23A.tmp' to '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Saved/Autosaves/Game/Veins/Tunnel_Straight_01_Auto1.uasset'
-[2014.11.28-04.37.18:402][755]LogFileHelpers: Auto-saving content packages took 0.375
-[2014.11.28-04.38.06:472][307]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.38.06:472][307]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.38.06:472][307]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.38.06:472][307]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.39.28:389][646]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001FAA6D40
-[2014.11.28-04.39.29:943][646]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMeshComponent_53' or package '/Engine/Transient'.
-[2014.11.28-04.39.30:037][646]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016B8B560
-[2014.11.28-04.39.34:751][728]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/Tunnel_Straight_01.fbx)
-[2014.11.28-04.39.34:754][728]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2014.11.28-04.39.34:754][728]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2014.11.28-04.39.34:754][728]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2014.11.28-04.39.34:754][728]LogFbx: ItemName: NodeAttribute, ItemCount : 2
-[2014.11.28-04.39.34:754][728]LogFbx: ItemName: Model, ItemCount : 3
-[2014.11.28-04.39.34:754][728]LogFbx: ItemName: Geometry, ItemCount : 1
-[2014.11.28-04.39.34:754][728]LogFbx: ItemName: Material, ItemCount : 1
-[2014.11.28-04.39.36:091][728]LogFbx: Loading FBX Scene from ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/Tunnel_Straight_01.fbx
-[2014.11.28-04.39.36:102][728]LogFbx: FBX Scene Loaded Succesfully
-[2014.11.28-04.39.36:105][728]LogFbx:Warning: Triangulating static mesh pCylinder1
-[2014.11.28-04.39.36:169][728]LogFbx: == Initial material list:
-[2014.11.28-04.39.36:169][728]LogFbx: 0: lambert1
-[2014.11.28-04.39.36:169][728]LogFbx: == After sorting:
-[2014.11.28-04.39.36:170][728]LogFbx: 0: lambert1
-[2014.11.28-04.39.36:170][728]LogFbx: == Mapping table:
-[2014.11.28-04.39.36:170][728]LogFbx:   sort 0 -> 0
-[2014.11.28-04.39.36:216][728]LogStaticMesh: Building static mesh Tunnel_Straight_01...
-[2014.11.28-04.39.36:219][728]LogLayoutUV:Display: FindCharts: 0 ms
-[2014.11.28-04.39.36:219][728]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.39.36:219][728]LogLayoutUV:Display:   Rasterize: 1655
-[2014.11.28-04.39.36:219][728]LogLayoutUV:Display:   Find: 5
-[2014.11.28-04.39.36:220][728]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.39.36:220][728]LogLayoutUV:Display:   Rasterize: 1826
-[2014.11.28-04.39.36:220][728]LogLayoutUV:Display:   Find: 1
-[2014.11.28-04.39.36:221][728]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.39.36:221][728]LogLayoutUV:Display:   Rasterize: 2127
-[2014.11.28-04.39.36:221][728]LogLayoutUV:Display:   Find: 6
-[2014.11.28-04.39.36:222][728]LogLayoutUV:Display: PackCharts: 1 ms
-[2014.11.28-04.39.36:222][728]LogLayoutUV:Display:   Rasterize: 3023
-[2014.11.28-04.39.36:222][728]LogLayoutUV:Display:   Find: 7
-[2014.11.28-04.39.36:223][728]LogLayoutUV:Display: PackCharts: 1 ms
-[2014.11.28-04.39.36:223][728]LogLayoutUV:Display:   Rasterize: 3238
-[2014.11.28-04.39.36:223][728]LogLayoutUV:Display:   Find: 8
-[2014.11.28-04.39.36:224][728]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.39.36:224][728]LogLayoutUV:Display:   Rasterize: 2080
-[2014.11.28-04.39.36:224][728]LogLayoutUV:Display:   Find: 4
-[2014.11.28-04.39.36:225][728]LogLayoutUV:Display: PackCharts: 1 ms
-[2014.11.28-04.39.36:225][728]LogLayoutUV:Display:   Rasterize: 2928
-[2014.11.28-04.39.36:225][728]LogLayoutUV:Display:   Find: 9
-[2014.11.28-04.39.36:227][728]LogLayoutUV:Display: PackCharts: 1 ms
-[2014.11.28-04.39.36:227][728]LogLayoutUV:Display:   Rasterize: 3284
-[2014.11.28-04.39.36:227][728]LogLayoutUV:Display:   Find: 9
-[2014.11.28-04.39.36:230][728]LogStaticMesh: Built static mesh [59.735905ms] /Game/Veins/Tunnel_Straight_01.Tunnel_Straight_01
-[2014.11.28-04.39.36:248][728]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2014.11.28-04.39.36:249][728]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Veins'
-[2014.11.28-04.41.45:775][179]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.41.45:775][179]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.41.45:775][179]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.41.45:775][179]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.41.45:775][179]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.42.12:877][723]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.42.12:877][723]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.42.12:877][723]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.42.12:877][723]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.42.12:877][723]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.42.40:774][ 35]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.42.40:774][ 35]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.42.40:774][ 35]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.42.40:774][ 35]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.42.40:774][ 35]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.42.41:897][ 63]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D26BC40
-[2014.11.28-04.42.58:388][693]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/Tunnel_Straight_01.fbx)
-[2014.11.28-04.42.58:391][693]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2014.11.28-04.42.58:391][693]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2014.11.28-04.42.58:391][693]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2014.11.28-04.42.58:391][693]LogFbx: ItemName: NodeAttribute, ItemCount : 2
-[2014.11.28-04.42.58:391][693]LogFbx: ItemName: Model, ItemCount : 3
-[2014.11.28-04.42.58:391][693]LogFbx: ItemName: Geometry, ItemCount : 1
-[2014.11.28-04.42.58:391][693]LogFbx: ItemName: Material, ItemCount : 1
-[2014.11.28-04.43.01:751][693]LogFbx: Loading FBX Scene from ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/ArtAssets/Models/Tunnel_Straight_01.fbx
-[2014.11.28-04.43.01:762][693]LogFbx: FBX Scene Loaded Succesfully
-[2014.11.28-04.43.01:766][693]LogFbx:Warning: Triangulating static mesh pCylinder1
-[2014.11.28-04.43.01:833][693]LogFbx: == Initial material list:
-[2014.11.28-04.43.01:833][693]LogFbx: 0: lambert1
-[2014.11.28-04.43.01:833][693]LogFbx: == After sorting:
-[2014.11.28-04.43.01:833][693]LogFbx: 0: lambert1
-[2014.11.28-04.43.01:833][693]LogFbx: == Mapping table:
-[2014.11.28-04.43.01:833][693]LogFbx:   sort 0 -> 0
-[2014.11.28-04.43.01:834][693]LogStaticMesh: Building static mesh Tunnel_Straight_01...
-[2014.11.28-04.43.01:837][693]LogLayoutUV:Display: FindCharts: 0 ms
-[2014.11.28-04.43.01:838][693]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.43.01:838][693]LogLayoutUV:Display:   Rasterize: 1517
-[2014.11.28-04.43.01:838][693]LogLayoutUV:Display:   Find: 5
-[2014.11.28-04.43.01:839][693]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.43.01:839][693]LogLayoutUV:Display:   Rasterize: 1879
-[2014.11.28-04.43.01:839][693]LogLayoutUV:Display:   Find: 3
-[2014.11.28-04.43.01:839][693]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.43.01:839][693]LogLayoutUV:Display:   Rasterize: 1767
-[2014.11.28-04.43.01:839][693]LogLayoutUV:Display:   Find: 5
-[2014.11.28-04.43.01:840][693]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.43.01:840][693]LogLayoutUV:Display:   Rasterize: 1720
-[2014.11.28-04.43.01:840][693]LogLayoutUV:Display:   Find: 3
-[2014.11.28-04.43.01:841][693]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.43.01:841][693]LogLayoutUV:Display:   Rasterize: 1809
-[2014.11.28-04.43.01:841][693]LogLayoutUV:Display:   Find: 5
-[2014.11.28-04.43.01:841][693]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.43.01:841][693]LogLayoutUV:Display:   Rasterize: 1759
-[2014.11.28-04.43.01:841][693]LogLayoutUV:Display:   Find: 2
-[2014.11.28-04.43.01:842][693]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.43.01:842][693]LogLayoutUV:Display:   Rasterize: 1784
-[2014.11.28-04.43.01:842][693]LogLayoutUV:Display:   Find: 3
-[2014.11.28-04.43.01:843][693]LogLayoutUV:Display: PackCharts: 0 ms
-[2014.11.28-04.43.01:843][693]LogLayoutUV:Display:   Rasterize: 1881
-[2014.11.28-04.43.01:843][693]LogLayoutUV:Display:   Find: 3
-[2014.11.28-04.43.01:845][693]LogStaticMesh: Built static mesh [11.345768ms] /Game/Veins/Tunnel_Straight_01.Tunnel_Straight_01
-[2014.11.28-04.43.01:872][693]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2014.11.28-04.43.01:872][693]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Veins'
-[2014.11.28-04.44.26:165][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GameMap" FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Maps/GameMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2014.11.28-04.44.26:289][655]LogSavePackage: Save=72.523994ms
-[2014.11.28-04.44.26:289][655]LogSavePackage: Moving '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Saved/GameMap20C0CC1F40E75033143B9395A29C51D7.tmp' to '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Maps/GameMap.umap'
-[2014.11.28-04.44.26:400][655]LogFileHelpers: Saving map 'GameMap' took 0.351
-[2014.11.28-04.44.26:422][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Veins/Tunnel_Straight_01" FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Veins/Tunnel_Straight_01.uasset" SILENT=true
-[2014.11.28-04.44.26:663][655]LogSavePackage: Save=235.919327ms
-[2014.11.28-04.44.26:664][655]LogSavePackage: Moving '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Saved/Tunnel_Straight_01893C66B04E822C20FEE78CA17ADF0F45.tmp' to '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Veins/Tunnel_Straight_01.uasset'
-[2014.11.28-04.44.29:101][697]LogActorFactory: Actor Factory created Tunnel_Straight_01
-[2014.11.28-04.44.29:928][712]LogActorFactory: Actor Factory created Tunnel_Straight_01
-[2014.11.28-04.44.43:956][932]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.44.43:957][932]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.44.43:957][932]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.44.43:957][932]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.44.43:957][932]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.44.43:957][932]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.44.44:290][937]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.44.44:290][937]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.44.44:290][937]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.44.44:290][937]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.44.44:290][937]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.44.44:290][937]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.44.46:753][969]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.44.46:753][969]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.44.46:753][969]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.44.46:753][969]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.44.46:753][969]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.44.46:753][969]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.11.28-04.44.46:754][969]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tunnel_Straight_3)
-[2014.11.28-04.44.48:085][988]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tunnel_Straight_3)
-[2014.11.28-04.44.59:777][146]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.11.28-04.44.59:777][146]LogPlayLevel: [PIE] Compiling GameMap before PIE...
-[2014.11.28-04.44.59:899][146]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A3044A0
-[2014.11.28-04.44.59:900][146]LogPlayLevel: PIE:  Blueprint regeneration took 123 ms (1 blueprints)
-[2014.11.28-04.44.59:900][146]PIE: New page: PIE session: GameMap (Nov 27, 2014, 6:44:59 PM)
-[2014.11.28-04.44.59:943][146]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042850s)
+[2014.11.28-19.36.22:267][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.28-19.36.22:305][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.28-19.36.22:332][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.28-19.36.22:341][  0]LogInit: Object subsystem initialized
+[2014.11.28-19.36.22:344][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.11.28-19.36.22:344][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/phelow/Documents/E-BALL-A/demo project/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.11.28-19.36.22:344][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.11.28-19.36.22:344][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/phelow/Documents/E-BALL-A/demo project/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.11.28-19.36.22:345][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.28-19.36.22:345][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.28-19.36.22:350][  0]LogInit: Computer: PHELOW-PC
+[2014.11.28-19.36.22:350][  0]LogInit: User: phelow
+[2014.11.28-19.36.22:351][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.11.28-19.36.22:351][  0]LogInit: High frequency timer resolution =2.728222 MHz
+[2014.11.28-19.36.22:351][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx) Virtual=8192.0GB
+[2014.11.28-19.36.22:351][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.28-19.36.22:351][  0]LogMemory: Process Physical Memory: 63.99 MB used, 63.99 MB peak
+[2014.11.28-19.36.22:351][  0]LogMemory: Process Virtual Memory: 41.27 MB used, 41.27 MB peak
+[2014.11.28-19.36.22:351][  0]LogMemory: Physical Memory: 3135.14 MB used, 7915.94 MB total
+[2014.11.28-19.36.22:351][  0]LogMemory: Virtual Memory: 278.33 MB used, 8388608.00 MB total
+[2014.11.28-19.36.22:383][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2014.11.28-19.36.22:383][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2014.11.28-19.36.22:397][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA NVS 5400M    (Feature Level 11_0)
+[2014.11.28-19.36.22:397][  0]LogD3D11RHI: Adapter has 978MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 1 output[s]
+[2014.11.28-19.36.22:397][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 1
+[2014.11.28-19.36.22:401][  0]LogRHI: Texture pool is 684 MB (70% of 978 MB)
+[2014.11.28-19.36.22:409][  0]LogD3D11RHI: Async texture creation enabled
+[2014.11.28-19.36.22:450][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.11.28-19.36.22:582][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.28-19.36.27:126][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.28-19.36.27:538][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.28-19.36.27:588][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.28-19.36.27:624][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/phelow/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.11.28-19.36.27:624][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/phelow/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.11.28-19.36.27:624][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.28-19.36.27:624][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.28-19.36.27:692][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.11.28-19.36.27:703][  0]LogDerivedDataCache: Using Local data cache path C:/Users/phelow/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.11.28-19.36.27:870][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.28-19.36.27:870][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.28-19.36.28:075][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.28-19.36.28:078][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.28-19.36.28:228][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.28-19.36.28:944][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.28-19.36.29:116][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/phelow/Documents/E-BALL-A/demo project/Binaries/Win64. Error: 0
+[2014.11.28-19.36.29:236][  0]SourceControl: Info Source control is disabled
+[2014.11.28-19.36.29:236][  0]SourceControl: Info Source control is disabled
+[2014.11.28-19.36.29:241][  0]SourceControl: Info Source control is disabled
+[2014.11.28-19.36.29:348][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2014.11.28-19.36.29:348][  0]LogUObjectAllocator: 4803544 out of 0 bytes used by permanent object pool.
+[2014.11.28-19.36.29:400][  0]LogEngine: Initializing Engine...
+[2014.11.28-19.36.29:527][  0]LogInit: XAudio2 using 'ASUS VS239 (6- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.11.28-19.36.29:565][  0]LogInit: FAudioDevice initialized.
+[2014.11.28-19.36.29:583][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.11.28-19.36.29:603][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/phelow/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.11.28-19.36.29:606][  0]LogInit: Texture streaming: Enabled
+[2014.11.28-19.36.29:645][  0]LogInit: Transaction tracking system initialized
+[2014.11.28-19.36.29:724][  0]BlueprintLog: New page: Editor Load
+[2014.11.28-19.36.29:751][  0]LogAssetRegistry: FAssetRegistry took 0.0095 seconds to start up
+[2014.11.28-19.36.29:751][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.11.28-19.36.30:247][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.28-19.36.30:607][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.28-19.36.30:826][  0]LogConsoleResponse:Display: 
+[2014.11.28-19.36.31:004][  0]SourceControl: Info Source control is disabled
+[2014.11.28-19.36.51:348][  0]Cmd: MAP LOAD FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.28-19.36.51:407][  0]LightingResults: New page: Lighting Build
+[2014.11.28-19.36.51:416][  0]MapCheck: New page: Map Check
+[2014.11.28-19.36.51:416][  0]LightingResults: New page: Lighting Build
+[2014.11.28-19.36.51:431][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016CB9A80
+[2014.11.28-19.36.51:654][  0]LogLinker:Warning: Asset '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Meshes/BallMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.28-19.36.54:669][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.28-19.36.54:669][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.28-19.36.54:669][  0]Cmd: MAP CHECKDEP
+[2014.11.28-19.36.54:670][  0]MapCheck: New page: Example_Map - Nov 28, 2014, 9:36:54 AM
+[2014.11.28-19.36.54:794][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 124.426ms to complete.
+[2014.11.28-19.36.54:794][  0]LogFileHelpers: Loading map 'Example_Map' took 3.446
+[2014.11.28-19.36.54:874][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_1bc8_0///////STATCAT_Advanced//// old //STATGROUP_Threads//SplashScreenThread///Thread_1838_0///////STATCAT_Advanced////
+[2014.11.28-19.36.54:874][  0]LogCollectionManager: Loaded 0 collections in 0.000938 seconds
+[2014.11.28-19.36.55:072][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.28-19.36.55:080][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.11.28-19.36.55:119][  0]LogLoad: Full Startup: 35.05 seconds (BP compile: 0.10 seconds)
+[2014.11.28-19.36.55:132][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Veins'
+[2014.11.28-19.36.55:331][  0]LogRenderer:Warning: Reallocating scene render targets to support 896x728.
+[2014.11.28-19.36.55:913][  3]LogAssetRegistry: Asset discovery search completed in 26.1719 seconds
+[2014.11.28-19.36.58:308][111]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.11.28-19.36.59:685][174]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2014.11.28-19.37.03:896][238]Cmd: MAP LOAD FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Maps/GameMap.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.28-19.37.03:896][238]LightingResults: New page: Lighting Build
+[2014.11.28-19.37.03:929][238]LoadErrors: New page: Loading map: GameMap.umap
+[2014.11.28-19.37.03:930][238]MapCheck: New page: Map Check
+[2014.11.28-19.37.03:930][238]LightingResults: New page: Lighting Build
+[2014.11.28-19.37.03:981][238]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B68D8A0
+[2014.11.28-19.37.03:995][238]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.28-19.37.03:995][238]LogAIModule: Creating AISystem for world GameMap
+[2014.11.28-19.37.04:037][238]Cmd: MAP CHECKDEP
+[2014.11.28-19.37.04:037][238]MapCheck: New page: GameMap - Nov 28, 2014, 9:37:04 AM
+[2014.11.28-19.37.04:121][238]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 83.923ms to complete.
+[2014.11.28-19.37.04:122][238]LogFileHelpers: Loading map 'GameMap' took 0.228
+[2014.11.28-19.37.25:170][322]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.11.28-19.38.15:048][229]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Veins'
+[2014.11.28-19.38.18:317][392]LogActorFactory: Actor Factory created Tunnel_Turn_Tight
+[2014.11.28-19.38.18:967][423]LogActorFactory: Actor Factory created Tunnel_Turn_Tight
+[2014.11.28-19.38.22:087][571]LogEditorViewport: Clicking Background
+[2014.11.28-19.38.23:275][629]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tunnel_Turn_Tight)
+[2014.11.28-19.38.24:242][676]Cmd: DELETE
+[2014.11.28-19.38.24:242][676]Cmd: ACTOR DELETE
+[2014.11.28-19.38.24:244][676]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.28-19.38.24:270][676]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.11.28-19.38.25:894][756]LogContentBrowser:Verbose: The 
