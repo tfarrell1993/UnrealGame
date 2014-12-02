@@ -1,4 +1,4 @@
-﻿Log file open, 11/30/14 23:10:28
+﻿Log file open, 12/01/14 20:52:28
 LogInit:Display: Running engine for game: MyProject5
 LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
 LogInit: API Version: 2326478
@@ -9,472 +9,147 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.5
 LogInit: Command line: 
 LogInit: Base directory: C:/Program Files/Epic Games/4.5/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2014.12.01-04.10.28:805][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
-[2014.12.01-04.10.28:857][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2014.12.01-04.10.28:914][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2014.12.01-04.10.28:945][  0]LogInit: Object subsystem initialized
-[2014.12.01-04.10.28:954][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2014.12.01-04.10.28:955][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/phelow/Documents/E-BALL-A/demo project/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2014.12.01-04.10.28:955][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
-[2014.12.01-04.10.28:955][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/phelow/Documents/E-BALL-A/demo project/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2014.12.01-04.10.28:956][  0]LogInit: Selected Device Profile: [Windows]
-[2014.12.01-04.10.28:956][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2014.12.01-04.10.29:003][  0]LogInit: Computer: PHELOW-PC
-[2014.12.01-04.10.29:003][  0]LogInit: User: phelow
-[2014.12.01-04.10.29:006][  0]LogInit: CPU Page size=4096, Cores=2
-[2014.12.01-04.10.29:006][  0]LogInit: High frequency timer resolution =2.728222 MHz
-[2014.12.01-04.10.29:006][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx) Virtual=8192.0GB
-[2014.12.01-04.10.29:006][  0]LogMemory: Platform Memory Stats for Windows
-[2014.12.01-04.10.29:006][  0]LogMemory: Process Physical Memory: 64.13 MB used, 64.13 MB peak
-[2014.12.01-04.10.29:006][  0]LogMemory: Process Virtual Memory: 41.38 MB used, 41.38 MB peak
-[2014.12.01-04.10.29:006][  0]LogMemory: Physical Memory: 4166.89 MB used, 7915.94 MB total
-[2014.12.01-04.10.29:006][  0]LogMemory: Virtual Memory: 278.33 MB used, 8388608.00 MB total
-[2014.12.01-04.10.29:108][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
-[2014.12.01-04.10.29:108][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
-[2014.12.01-04.10.29:108][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2014.12.01-04.10.29:124][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
-[2014.12.01-04.10.29:159][  0]LogD3D11RHI: Async texture creation enabled
-[2014.12.01-04.10.29:235][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
-[2014.12.01-04.10.29:719][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2014.12.01-04.10.43:472][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.12.01-04.10.44:784][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.12.01-04.10.44:919][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2014.12.01-04.10.45:059][  0]LogDerivedDataCache: Loaded boot cache 0.14s 39MB C:/Users/phelow/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
-[2014.12.01-04.10.45:059][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/phelow/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
-[2014.12.01-04.10.45:060][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2014.12.01-04.10.45:060][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2014.12.01-04.10.45:265][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2014.12.01-04.10.45:278][  0]LogDerivedDataCache: Using Local data cache path C:/Users/phelow/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2014.12.01-04.10.45:754][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2014.12.01-04.10.45:754][  0]LogMeshUtilities: No automatic mesh merging module available
-[2014.12.01-04.10.46:406][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.12.01-04.10.46:416][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.12.01-04.10.46:907][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2014.12.01-04.10.49:048][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2014.12.01-04.10.49:407][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/phelow/Documents/E-BALL-A/demo project/Binaries/Win64. Error: 0
-[2014.12.01-04.10.49:796][  0]SourceControl: Info Source control is disabled
-[2014.12.01-04.10.49:796][  0]SourceControl: Info Source control is disabled
-[2014.12.01-04.10.49:813][  0]SourceControl: Info Source control is disabled
-[2014.12.01-04.10.50:125][  0]LogObj: 22915 objects as part of root set at end of initial load.
-[2014.12.01-04.10.50:125][  0]LogUObjectAllocator: 4803544 out of 0 bytes used by permanent object pool.
-[2014.12.01-04.10.50:266][  0]LogEngine: Initializing Engine...
-[2014.12.01-04.10.50:641][  0]LogInit: XAudio2 using 'Speaker/HP (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2014.12.01-04.10.50:671][  0]LogInit: FAudioDevice initialized.
-[2014.12.01-04.10.50:725][  0]LogAIModule: Creating AISystem for world NewWorld
-[2014.12.01-04.10.50:771][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/phelow/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
-[2014.12.01-04.10.50:781][  0]LogInit: Texture streaming: Enabled
-[2014.12.01-04.10.50:898][  0]LogInit: Transaction tracking system initialized
-[2014.12.01-04.10.51:152][  0]BlueprintLog: New page: Editor Load
-[2014.12.01-04.10.51:217][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
-[2014.12.01-04.10.51:218][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2014.12.01-04.10.52:847][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.12.01-04.10.54:000][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.12.01-04.10.54:695][  0]LogConsoleResponse:Display: 
-[2014.12.01-04.10.55:265][  0]SourceControl: Info Source control is disabled
-[2014.12.01-04.10.55:265][  0]Cmd: MAP LOAD FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2014.12.01-04.10.55:295][  0]LightingResults: New page: Lighting Build
-[2014.12.01-04.10.55:318][  0]MapCheck: New page: Map Check
-[2014.12.01-04.10.55:318][  0]LightingResults: New page: Lighting Build
-[2014.12.01-04.10.56:324][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CAA1A80
-[2014.12.01-04.10.56:324][  0]LogLinker:Warning: Asset '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Meshes/BallMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.12.01-04.10.56:650][  0]LogBlueprint:Warning: [compiler] Warning Function ' Get Player Pawn ' is unsafe to call in a construction script.
-[2014.12.01-04.10.56:715][  0]LogBlueprint:Warning: [compiler] Warning [0032.88] Compile of PhysicsBallBP successful, but with 1 Warning(s) [in 89 ms]
-[2014.12.01-04.10.56:848][  0]LogBlueprint:Warning: [compiler] Warning Function ' Get Player Pawn ' is unsafe to call in a construction script.
-[2014.12.01-04.10.56:896][  0]LogBlueprint:Warning: [compiler] Warning [0033.06] Compile of PhysicsBallBP successful, but with 1 Warning(s) [in 72 ms]
-[2014.12.01-04.11.02:749][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.12.01-04.11.02:749][  0]LogAIModule: Creating AISystem for world Example_Map
-[2014.12.01-04.11.02:750][  0]Cmd: MAP CHECKDEP
-[2014.12.01-04.11.02:751][  0]MapCheck: New page: Example_Map - Nov 30, 2014, 6:11:02 PM
-[2014.12.01-04.11.03:058][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 307.017ms to complete.
-[2014.12.01-04.11.03:058][  0]LogFileHelpers: Loading map 'Example_Map' took 7.793
-[2014.12.01-04.11.03:325][  0]LogCollectionManager: Loaded 0 collections in 0.003173 seconds
-[2014.12.01-04.11.03:796][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2014.12.01-04.11.03:810][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2014.12.01-04.11.03:896][  0]LogLoad: Full Startup: 40.06 seconds (BP compile: 0.85 seconds)
-[2014.12.01-04.11.03:928][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2014.12.01-04.11.04:458][  2]LogRenderer:Warning: Reallocating scene render targets to support 536x704.
-[2014.12.01-04.11.06:050][  5]LogAssetRegistry: Asset discovery search completed in 14.8433 seconds
-[2014.12.01-04.11.13:652][223]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.12.01-04.11.13:652][223]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
-[2014.12.01-04.11.13:807][223]LogPlayLevel: PIE:  Blueprint regeneration took 155 ms (1 blueprints)
-[2014.12.01-04.11.13:807][223]PIE: New page: PIE session: Example_Map (Nov 30, 2014, 6:11:13 PM)
-[2014.12.01-04.11.13:857][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049770s)
-[2014.12.01-04.11.13:859][223]LogPlayLevel: PIE: World Init took: (0.001898s)
-[2014.12.01-04.11.13:859][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.052027s)
-[2014.12.01-04.11.13:939][223]LogWorld: Game class is 'RollingGameMode_C'
-[2014.12.01-04.11.13:941][223]LogAIModule: Creating AISystem for world Example_Map
-[2014.12.01-04.11.13:944][223]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.11.30-23.11.13
-[2014.12.01-04.11.13:945][223]LogWorld: Bringing up level for play took: 0.004129
-[2014.12.01-04.11.13:950][223]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.214
-[2014.12.01-04.11.15:575][292]LogPackageName: SearchForPackageOnDisk took   0.054s to resolve GameMap.umap
-[2014.12.01-04.11.15:624][292]LogPackageName: SearchForPackageOnDisk took   0.048s to resolve GameMap.umap
-[2014.12.01-04.11.15:624][292]LogNet: Browse: /Game/Maps/GameMap
-[2014.12.01-04.11.15:625][292]LogLoad: LoadMap: /Game/Maps/GameMap
-[2014.12.01-04.11.15:650][292]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B866520
-[2014.12.01-04.11.15:650][292]Cmd: MEM
-[2014.12.01-04.11.15:671][292]LogMemory: Platform Memory Stats for Windows
-[2014.12.01-04.11.15:671][292]LogMemory: Process Physical Memory: 528.83 MB used, 539.91 MB peak
-[2014.12.01-04.11.15:671][292]LogMemory: Process Virtual Memory: 564.76 MB used, 593.80 MB peak
-[2014.12.01-04.11.15:671][292]LogMemory: Physical Memory: 4183.46 MB used, 7915.94 MB total
-[2014.12.01-04.11.15:671][292]LogMemory: Virtual Memory: 1071.88 MB used, 8388608.00 MB total
-[2014.12.01-04.11.15:672][292]LogMemory: 
-[2014.12.01-04.11.15:672][292]Allocator Stats for TBB: (not implemented)
-[2014.12.01-04.11.16:042][292]LogLinker:Warning: Asset '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Meshes/BallMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.12.01-04.11.16:059][292]LogWorld: Game class is 'RollingGameMode_C'
-[2014.12.01-04.11.16:061][292]LogAIModule: Creating AISystem for world GameMap
-[2014.12.01-04.11.16:070][292]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 60) at 2014.11.30-23.11.16
-[2014.12.01-04.11.16:073][292]LogWorld: Bringing up level for play took: 0.011377
-[2014.12.01-04.11.16:577][316]LogBlueprintUserMessages: 0:2024
-[2014.12.01-04.11.16:777][328]LogBlueprintUserMessages: -1:2035
-[2014.12.01-04.11.16:894][335]LogBlueprintUserMessages: -2:2041
-[2014.12.01-04.11.18:787][448]LogBlueprintUserMessages: -3:2153
-[2014.12.01-04.11.19:570][495]LogBlueprintUserMessages: -4:2199
-[2014.12.01-04.11.19:920][516]LogBlueprintUserMessages: -5:2219
-[2014.12.01-04.11.20:287][538]LogBlueprintUserMessages: -6:2240
-[2014.12.01-04.11.20:637][559]LogBlueprintUserMessages: -7:2260
-[2014.12.01-04.11.20:737][565]LogBlueprintUserMessages: -8:2265
-[2014.12.01-04.11.20:965][575]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013161DA0
-[2014.12.01-04.11.52:672][759]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.11.52:672][759]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.11.52:732][759]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.11.52:733][759]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.11.52:733][759]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.11.52:733][759]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.11.52:733][759]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.11.52:733][759]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.11.52:734][759]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.11.52:734][759]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.11.52:734][759]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.11.52:734][759]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.11.52:734][759]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.11.52:734][759]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.11.52:735][759]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.11.52:735][759]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.11.52:735][759]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.11.58:880][ 22]BlueprintLog: New page: Compile PhysicsBallBP
-[2014.12.01-04.11.59:008][ 22]LogBlueprint:Warning: [compiler] Warning Function ' Get Player Pawn ' is unsafe to call in a construction script.
-[2014.12.01-04.11.59:037][ 22]LogBlueprint:Warning: [compiler] Warning [0095.20] Compile of PhysicsBallBP successful, but with 1 Warning(s) [in 36 ms]
-[2014.12.01-04.11.59:119][ 22]BlueprintEditorCompileResults:Warning: Warning Function ' Get Player Pawn ' is unsafe to call in a construction script.
-[2014.12.01-04.11.59:119][ 22]BlueprintEditorCompileResults:Warning: Warning [0095.20] Compile of PhysicsBallBP successful, but with 1 Warning(s) [in 36 ms]
-[2014.12.01-04.12.00:652][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PhysicsBallBP" FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Blueprints/PhysicsBallBP.uasset" SILENT=true
-[2014.12.01-04.12.01:009][ 74]LogSavePackage: Save=338.011719ms
-[2014.12.01-04.12.01:009][ 74]LogSavePackage: Moving '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Saved/PhysicsBallBPE9EB686D4CDC54AF02308A8A26AD108C.tmp' to '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Blueprints/PhysicsBallBP.uasset'
-[2014.12.01-04.12.13:319][436]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.12.01-04.12.13:319][436]LogPlayLevel: [PIE] Compiling BP_AvoidPlayer before PIE...
-[2014.12.01-04.12.13:392][436]LogPlayLevel: [PIE] Compiling SeekerBall before PIE...
-[2014.12.01-04.12.13:486][436]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
-[2014.12.01-04.12.13:566][436]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
-[2014.12.01-04.12.13:616][436]LogPlayLevel: [PIE] Compiling GUI before PIE...
-[2014.12.01-04.12.13:704][436]LogPlayLevel: [PIE] Compiling PhysicsBallBP before PIE...
-[2014.12.01-04.12.13:792][436]LogBlueprint:Warning: [compiler] Warning Function ' Get Player Pawn ' is unsafe to call in a construction script.
-[2014.12.01-04.12.13:816][436]LogBlueprint:Warning: [compiler] Warning [0109.98] Compile of PhysicsBallBP successful, but with 1 Warning(s) [in 32 ms]
-[2014.12.01-04.12.13:909][436]LogPlayLevel: PIE:  Blueprint regeneration took 590 ms (6 blueprints)
-[2014.12.01-04.12.13:909][436]PIE: New page: PIE session: Example_Map (Nov 30, 2014, 6:12:13 PM)
-[2014.12.01-04.12.13:960][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051404s)
-[2014.12.01-04.12.13:962][436]LogPlayLevel: PIE: World Init took: (0.001454s)
-[2014.12.01-04.12.13:962][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.053252s)
-[2014.12.01-04.12.14:014][436]LogWorld: Game class is 'RollingGameMode_C'
-[2014.12.01-04.12.14:016][436]LogAIModule: Creating AISystem for world Example_Map
-[2014.12.01-04.12.14:026][436]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.11.30-23.12.14
-[2014.12.01-04.12.14:028][436]LogWorld: Bringing up level for play took: 0.011745
-[2014.12.01-04.12.14:038][436]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.302
-[2014.12.01-04.12.15:226][498]LogPackageName: SearchForPackageOnDisk took   0.056s to resolve GameMap.umap
-[2014.12.01-04.12.15:274][498]LogPackageName: SearchForPackageOnDisk took   0.048s to resolve GameMap.umap
-[2014.12.01-04.12.15:274][498]LogNet: Browse: /Game/Maps/GameMap
-[2014.12.01-04.12.15:274][498]LogLoad: LoadMap: /Game/Maps/GameMap
-[2014.12.01-04.12.15:302][498]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002C5B4C20
-[2014.12.01-04.12.15:302][498]Cmd: MEM
-[2014.12.01-04.12.15:324][498]LogMemory: Platform Memory Stats for Windows
-[2014.12.01-04.12.15:324][498]LogMemory: Process Physical Memory: 638.43 MB used, 649.30 MB peak
-[2014.12.01-04.12.15:324][498]LogMemory: Process Virtual Memory: 679.86 MB used, 690.49 MB peak
-[2014.12.01-04.12.15:324][498]LogMemory: Physical Memory: 4285.90 MB used, 7915.94 MB total
-[2014.12.01-04.12.15:324][498]LogMemory: Virtual Memory: 1195.11 MB used, 8388608.00 MB total
-[2014.12.01-04.12.15:324][498]LogMemory: 
-[2014.12.01-04.12.15:324][498]Allocator Stats for TBB: (not implemented)
-[2014.12.01-04.12.15:548][498]LogLinker:Warning: Asset '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Meshes/BallMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.12.01-04.12.15:564][498]LogWorld: Game class is 'RollingGameMode_C'
-[2014.12.01-04.12.15:566][498]LogAIModule: Creating AISystem for world GameMap
-[2014.12.01-04.12.15:574][498]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 60) at 2014.11.30-23.12.15
-[2014.12.01-04.12.15:577][498]LogWorld: Bringing up level for play took: 0.011210
-[2014.12.01-04.12.17:500][612]LogBlueprintUserMessages: 0:2114
-[2014.12.01-04.12.19:121][709]LogBlueprintUserMessages: -1:2210
-[2014.12.01-04.12.20:822][811]LogBlueprintUserMessages: -2:2311
-[2014.12.01-04.12.23:402][965]LogBlueprintUserMessages: -3:2464
-[2014.12.01-04.12.23:602][977]LogBlueprintUserMessages: -4:2475
-[2014.12.01-04.12.24:035][  3]LogBlueprintUserMessages: -5:2500
-[2014.12.01-04.12.24:173][ 11]LogBlueprintUserMessages: -6:2507
-[2014.12.01-04.12.24:690][ 42]LogBlueprintUserMessages: -7:2537
-[2014.12.01-04.12.25:389][ 84]LogBlueprintUserMessages: -8:2578
-[2014.12.01-04.12.27:083][185]LogBlueprintUserMessages: -9:2678
-[2014.12.01-04.12.27:299][198]LogBlueprintUserMessages: -10:2690
-[2014.12.01-04.12.28:654][279]LogBlueprintUserMessages: -11:2770
-[2014.12.01-04.12.29:493][329]LogBlueprintUserMessages: -12:2819
-[2014.12.01-04.12.29:793][347]LogBlueprintUserMessages: -13:2836
-[2014.12.01-04.12.31:689][460]LogBlueprintUserMessages: -14:2948
-[2014.12.01-04.12.32:072][483]LogBlueprintUserMessages: -15:2970
-[2014.12.01-04.12.32:822][528]LogBlueprintUserMessages: -16:3014
-[2014.12.01-04.12.33:456][566]LogBlueprintUserMessages: -17:3051
-[2014.12.01-04.12.33:739][583]LogBlueprintUserMessages: -18:3067
-[2014.12.01-04.12.34:796][646]LogBlueprintUserMessages: -19:3129
-[2014.12.01-04.12.35:146][667]LogBlueprintUserMessages: -20:3149
-[2014.12.01-04.12.36:763][764]LogBlueprintUserMessages: -21:3245
-[2014.12.01-04.12.37:231][792]LogBlueprintUserMessages: -22:3272
-[2014.12.01-04.12.37:981][837]LogBlueprintUserMessages: -23:3316
-[2014.12.01-04.12.39:115][905]LogBlueprintUserMessages: -24:3383
-[2014.12.01-04.12.39:298][916]LogBlueprintUserMessages: -25:3393
-[2014.12.01-04.12.39:482][927]LogBlueprintUserMessages: -26:3403
-[2014.12.01-04.12.39:709][937]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002C603B00
-[2014.12.01-04.17.28:199][175]BlueprintLog: New page: Compile BP_AvoidPlayer
-[2014.12.01-04.17.28:379][175]BlueprintEditorCompileResults: Info [0424.43] Compile of BP_AvoidPlayer successful! [in 23 ms]
-[2014.12.01-04.20.14:520][ 36]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.20.14:520][ 36]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.20.14:520][ 36]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.20.14:520][ 36]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.20.14:520][ 36]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.20.14:520][ 36]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.20.14:520][ 36]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.20.14:520][ 36]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.20.14:520][ 36]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.20.14:520][ 36]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.20.14:520][ 36]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.20.14:520][ 36]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.20.14:520][ 36]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.01-04.20.47:413][922]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2014.12.01-04.20.47:895][922]LogSavePackage: Save=409.383484ms
-[2014.12.01-04.20.47:895][922]LogSavePackage: Moving '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Saved/Example_Map23C447A948E19BAE50939F9DC62A8D11.tmp' to '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Maps/Example_Map.umap'
-[2014.12.01-04.20.47:949][922]LogFileHelpers: Saving map 'Example_Map' took 0.663
-[2014.12.01-04.20.47:966][922]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AvoidPlayer" FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Blueprints/BP_AvoidPlayer.uasset" SILENT=true
-[2014.12.01-04.20.48:169][922]LogSavePackage: Save=188.133881ms
-[2014.12.01-04.20.48:169][922]LogSavePackage: Moving '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Saved/BP_AvoidPlayerEF74D62644982F32418CC2B88969A749.tmp' to '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Blueprints/BP_AvoidPlayer.uasset'
-[2014.12.01-04.21.12:386][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AvoidPlayer" FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Blueprints/BP_AvoidPlayer.uasset" SILENT=true
-[2014.12.01-04.21.12:600][278]LogSavePackage: Save=197.778625ms
-[2014.12.01-04.21.12:600][278]LogSavePackage: Moving '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Saved/BP_AvoidPlayerC8BD359C46582E736081CF8E3D884745.tmp' to '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Blueprints/BP_AvoidPlayer.uasset'
-[2014.12.01-04.21.23:157][451]BlueprintLog: New page: Compile BP_AvoidPlayer
-[2014.12.01-04.21.23:321][451]BlueprintEditorCompileResults: Info [0659.37] Compile of BP_AvoidPlayer successful! [in 25 ms]
-[2014.12.01-04.21.23:957][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AvoidPlayer" FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Blueprints/BP_AvoidPlayer.uasset" SILENT=true
-[2014.12.01-04.21.24:162][467]LogSavePackage: Save=195.338211ms
-[2014.12.01-04.21.24:162][467]LogSavePackage: Moving '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Saved/BP_AvoidPlayer35722DD44F4DFA113EC1E0B26759161B.tmp' to '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Blueprints/BP_AvoidPlayer.uasset'
-[2014.12.01-04.21.27:605][625]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.12.01-04.21.27:605][625]LogPlayLevel: [PIE] Compiling SeekerBall before PIE...
-[2014.12.01-04.21.27:682][625]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
-[2014.12.01-04.21.27:734][625]LogPlayLevel: [PIE] Compiling GUI before PIE...
-[2014.12.01-04.21.27:851][625]LogPlayLevel: [PIE] Compiling PhysicsBallBP before PIE...
-[2014.12.01-04.21.27:931][625]LogBlueprint:Warning: [compiler] Warning Function ' Get Player Pawn ' is unsafe to call in a construction script.
-[2014.12.01-04.21.27:966][625]LogBlueprint:Warning: [compiler] Warning [0664.12] Compile of PhysicsBallBP successful, but with 1 Warning(s) [in 43 ms]
-[2014.12.01-04.21.28:067][625]LogPlayLevel: [PIE] Compiling BP_AvoidPlayer before PIE...
-[2014.12.01-04.21.28:225][625]LogPlayLevel: PIE:  Blueprint regeneration took 619 ms (5 blueprints)
-[2014.12.01-04.21.28:225][625]PIE: New page: PIE session: Example_Map (Nov 30, 2014, 6:21:28 PM)
-[2014.12.01-04.21.28:285][625]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059770s)
-[2014.12.01-04.21.28:298][625]LogPlayLevel: PIE: World Init took: (0.013217s)
-[2014.12.01-04.21.28:298][625]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.073594s)
-[2014.12.01-04.21.28:334][625]LogWorld: Game class is 'RollingGameMode_C'
-[2014.12.01-04.21.28:335][625]LogAIModule: Creating AISystem for world Example_Map
-[2014.12.01-04.21.28:340][625]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.11.30-23.21.28
-[2014.12.01-04.21.28:341][625]LogWorld: Bringing up level for play took: 0.006213
-[2014.12.01-04.21.28:348][625]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.602
-[2014.12.01-04.21.29:879][698]LogPackageName: SearchForPackageOnDisk took   0.062s to resolve GameMap.umap
-[2014.12.01-04.21.29:930][698]LogPackageName: SearchForPackageOnDisk took   0.051s to resolve GameMap.umap
-[2014.12.01-04.21.29:930][698]LogNet: Browse: /Game/Maps/GameMap
-[2014.12.01-04.21.29:930][698]LogLoad: LoadMap: /Game/Maps/GameMap
-[2014.12.01-04.21.29:961][698]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002070ACA0
-[2014.12.01-04.21.29:961][698]Cmd: MEM
-[2014.12.01-04.21.29:986][698]LogMemory: Platform Memory Stats for Windows
-[2014.12.01-04.21.29:986][698]LogMemory: Process Physical Memory: 704.26 MB used, 719.57 MB peak
-[2014.12.01-04.21.29:986][698]LogMemory: Process Virtual Memory: 737.05 MB used, 754.65 MB peak
-[2014.12.01-04.21.29:986][698]LogMemory: Physical Memory: 4402.31 MB used, 7915.94 MB total
-[2014.12.01-04.21.29:986][698]LogMemory: Virtual Memory: 1217.78 MB used, 8388608.00 MB total
-[2014.12.01-04.21.29:986][698]LogMemory: 
-[2014.12.01-04.21.29:986][698]Allocator Stats for TBB: (not implemented)
-[2014.12.01-04.21.30:257][698]LogLinker:Warning: Asset '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Meshes/BallMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.12.01-04.21.30:274][698]LogWorld: Game class is 'RollingGameMode_C'
-[2014.12.01-04.21.30:276][698]LogAIModule: Creating AISystem for world GameMap
-[2014.12.01-04.21.30:285][698]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 60) at 2014.11.30-23.21.30
-[2014.12.01-04.21.30:288][698]LogWorld: Bringing up level for play took: 0.011565
-[2014.12.01-04.21.30:587][712]LogBlueprintUserMessages: 0:2014
-[2014.12.01-04.21.30:898][730]LogBlueprintUserMessages: -1:2031
-[2014.12.01-04.21.31:679][774]LogBlueprintUserMessages: -2:2074
-[2014.12.01-04.21.31:843][783]LogBlueprintUserMessages: -3:2082
-[2014.12.01-04.21.32:345][811]LogBlueprintUserMessages: -4:2109
-[2014.12.01-04.21.33:270][864]LogBlueprintUserMessages: -5:2161
-[2014.12.01-04.21.34:671][943]LogBlueprintUserMessages: -6:2239
-[2014.12.01-04.21.35:054][965]LogBlueprintUserMessages: -7:2260
-[2014.12.01-04.21.36:761][ 62]LogBlueprintUserMessages: -8:2356
-[2014.12.01-04.21.38:132][141]LogBlueprintUserMessages: -9:2434
-[2014.12.01-04.21.39:910][240]LogBlueprintUserMessages: -10:2532
-[2014.12.01-04.21.40:822][288]LogBlueprintUserMessages: -11:2579
-[2014.12.01-04.21.41:034][299]LogBlueprintUserMessages: -12:2589
-[2014.12.01-04.21.41:870][343]LogBlueprintUserMessages: -13:2632
-[2014.12.01-04.21.41:904][345]LogBlueprintUserMessages: -14:2633
-[2014.12.01-04.21.41:923][346]LogBlueprintUserMessages: -15:2633
-[2014.12.01-04.21.42:277][365]LogBlueprintUserMessages: -16:2651
-[2014.12.01-04.21.43:556][437]LogBlueprintUserMessages: -17:2722
-[2014.12.01-04.21.43:573][438]LogBlueprintUserMessages: -18:2722
-[2014.12.01-04.21.44:416][486]LogBlueprintUserMessages: -19:2769
-[2014.12.01-04.21.44:552][494]LogBlueprintUserMessages: -20:2776
-[2014.12.01-04.21.45:015][521]LogBlueprintUserMessages: -21:2802
-[2014.12.01-04.21.46:069][582]LogBlueprintUserMessages: -22:2862
-[2014.12.01-04.21.47:981][693]LogBlueprintUserMessages: -23:2972
-[2014.12.01-04.21.48:352][714]LogBlueprintUserMessages: -24:2992
-[2014.12.01-04.21.48:946][747]LogBlueprintUserMessages: -25:3024
-[2014.12.01-04.21.50:448][834]LogBlueprintUserMessages: -26:3110
-[2014.12.01-04.21.50:762][852]LogBlueprintUserMessages: -27:3127
-[2014.12.01-04.21.51:693][898]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002C5B7BA0
-[2014.12.01-04.21.58:191][146]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
-[2014.12.01-04.21.59:812][206]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000390D4EA0
-[2014.12.01-04.21.59:813][206]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000036FC4CC0
-[2014.12.01-04.21.59:814][206]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000119904A0
-[2014.12.01-04.22.02:041][206]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2014.12.01-04.22.02:553][206]LogSavePackage: Save=451.179199ms
-[2014.12.01-04.22.02:553][206]LogSavePackage: Moving '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Saved/Example_Map4E691B9D4351C8A8CC2468B8C0959683.tmp' to '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Maps/Example_Map.umap'
-[2014.12.01-04.22.02:589][206]LogFileHelpers: Saving map 'Example_Map' took 0.669
-[2014.12.01-04.22.02:593][206]Cmd: MAP LOAD FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Maps/GameMap.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2014.12.01-04.22.02:594][206]LightingResults: New page: Lighting Build
-[2014.12.01-04.22.02:631][206]LoadErrors: New page: Loading map: GameMap.umap
-[2014.12.01-04.22.02:633][206]MapCheck: New page: Map Check
-[2014.12.01-04.22.02:633][206]LightingResults: New page: Lighting Build
-[2014.12.01-04.22.02:660][206]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001EDAE0C0
-[2014.12.01-04.22.02:711][206]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.12.01-04.22.02:711][206]LogAIModule: Creating AISystem for world GameMap
-[2014.12.01-04.22.02:747][206]Cmd: MAP CHECKDEP
-[2014.12.01-04.22.02:747][206]MapCheck: New page: GameMap - Nov 30, 2014, 6:22:02 PM
-[2014.12.01-04.22.02:885][206]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 137.97ms to complete.
-[2014.12.01-04.22.02:885][206]LogFileHelpers: Loading map 'GameMap' took 0.294
-[2014.12.01-04.22.04:394][257]LogEditorViewport: Clicking on Actor (LMB): BP_AvoidPlayer_C (BP_AvoidPlayer_3)
-[2014.12.01-04.22.14:804][677]Cmd: TRANSACTION UNDO
-[2014.12.01-04.22.14:804][677]LogEditorTransaction: Undo Clicking on Actors
-[2014.12.01-04.22.15:310][687]Cmd: TRANSACTION UNDO
-[2014.12.01-04.22.15:310][687]LogEditorTransaction: Undo Clicking on Actors
-[2014.12.01-04.22.15:803][702]Cmd: TRANSACTION UNDO
-[2014.12.01-04.22.15:803][702]LogEditorTransaction: Undo Move Actors
-[2014.12.01-04.22.16:027][708]Cmd: TRANSACTION UNDO
-[2014.12.01-04.22.16:027][708]LogEditorTransaction: Undo Clicking on Actors
-[2014.12.01-04.22.33:679][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GameMap" FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Maps/GameMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2014.12.01-04.22.33:942][352]LogSavePackage: Save=205.185654ms
-[2014.12.01-04.22.33:942][352]LogSavePackage: Moving '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Saved/GameMap770EA3414114AD47B112D6A9B4F58D81.tmp' to '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Maps/GameMap.umap'
-[2014.12.01-04.22.33:997][352]LogFileHelpers: Saving map 'GameMap' took 0.458
-[2014.12.01-04.22.35:680][434]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.12.01-04.22.35:680][434]LogPlayLevel: [PIE] Compiling SeekerBall before PIE...
-[2014.12.01-04.22.35:799][434]LogPlayLevel: [PIE] Compiling GameMap before PIE...
-[2014.12.01-04.22.35:882][434]LogPlayLevel: [PIE] Compiling GUI before PIE...
-[2014.12.01-04.22.35:992][434]LogPlayLevel: [PIE] Compiling PhysicsBallBP before PIE...
-[2014.12.01-04.22.36:090][434]LogBlueprint:Warning: [compiler] Warning Function ' Get Player Pawn ' is unsafe to call in a construction script.
-[2014.12.01-04.22.36:119][434]LogBlueprint:Warning: [compiler] Warning [0732.28] Compile of PhysicsBallBP successful, but with 1 Warning(s) [in 38 ms]
-[2014.12.01-04.22.36:187][434]LogPlayLevel: [PIE] Compiling BP_AvoidPlayer before PIE...
-[2014.12.01-04.22.36:383][434]LogPlayLevel: PIE:  Blueprint regeneration took 702 ms (5 blueprints)
-[2014.12.01-04.22.36:383][434]PIE: New page: PIE session: GameMap (Nov 30, 2014, 6:22:36 PM)
-[2014.12.01-04.22.36:482][434]LogPlayLevel: PIE: StaticDuplicateObject took: (0.098390s)
-[2014.12.01-04.22.36:483][434]LogPlayLevel: PIE: World Init took: (0.001046s)
-[2014.12.01-04.22.36:483][434]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameMap.GameMap to /Game/Maps/UEDPIE_0_GameMap.GameMap (0.099707s)
-[2014.12.01-04.22.36:519][434]LogWorld: Game class is 'RollingGameMode_C'
-[2014.12.01-04.22.36:520][434]LogAIModule: Creating AISystem for world GameMap
-[2014.12.01-04.22.36:527][434]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 60) at 2014.11.30-23.22.36
-[2014.12.01-04.22.36:530][434]LogWorld: Bringing up level for play took: 0.009125
-[2014.12.01-04.22.36:533][434]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_GameMap 0.786
-[2014.12.01-04.22.36:666][436]LogBlueprintUserMessages: 0:2002
-[2014.12.01-04.22.37:151][461]LogBlueprintUserMessages: -1:2026
-[2014.12.01-04.22.37:472][479]LogBlueprintUserMessages: -2:2043
-[2014.12.01-04.22.38:171][519]LogBlueprintUserMessages: -3:2082
-[2014.12.01-04.22.38:925][562]LogBlueprintUserMessages: -4:2124
-[2014.12.01-04.22.39:143][574]LogBlueprintUserMessages: -5:2135
-[2014.12.01-04.22.41:061][679]LogBlueprintUserMessages: -6:2239
-[2014.12.01-04.22.41:988][732]LogBlueprintUserMessages: -7:2291
-[2014.12.01-04.22.45:158][913]LogBlueprintUserMessages: -8:2471
-[2014.12.01-04.22.46:323][981]LogBlueprintUserMessages: -9:2538
-[2014.12.01-04.22.46:729][  5]LogBlueprintUserMessages: -10:2561
-[2014.12.01-04.22.47:630][ 58]LogBlueprintUserMessages: -11:2613
-[2014.12.01-04.22.49:626][174]LogBlueprintUserMessages: -12:2728
-[2014.12.01-04.22.50:102][202]LogBlueprintUserMessages: -13:2755
-[2014.12.01-04.22.51:679][295]LogBlueprintUserMessages: -14:2847
-[2014.12.01-04.22.51:836][304]LogBlueprintUserMessages: -15:2855
-[2014.12.01-04.22.53:063][376]LogBlueprintUserMessages: -16:2926
-[2014.12.01-04.22.53:304][390]LogBlueprintUserMessages: -17:2939
-[2014.12.01-04.22.53:458][399]LogBlueprintUserMessages: -18:2947
-[2014.12.01-04.22.53:559][405]LogBlueprintUserMessages: -19:2952
-[2014.12.01-04.22.53:661][411]LogBlueprintUserMessages: -20:2957
-[2014.12.01-04.22.55:727][533]LogBlueprintUserMessages: -21:3078
-[2014.12.01-04.22.55:967][547]LogBlueprintUserMessages: -22:3091
-[2014.12.01-04.22.56:485][577]LogBlueprintUserMessages: -23:3120
-[2014.12.01-04.22.57:008][606]LogBlueprintUserMessages: -24:3148
-[2014.12.01-04.22.57:813][652]LogBlueprintUserMessages: -25:3193
-[2014.12.01-04.23.00:677][815]LogBlueprintUserMessages: -26:3355
-[2014.12.01-04.23.01:300][851]LogBlueprintUserMessages: -27:3390
-[2014.12.01-04.23.02:434][916]LogBlueprintUserMessages: -28:3454
-[2014.12.01-04.23.02:974][947]LogBlueprintUserMessages: -29:3484
-[2014.12.01-04.23.04:048][ 10]LogBlueprintUserMessages: -30:3546
-[2014.12.01-04.23.04:303][ 25]LogBlueprintUserMessages: -31:3560
-[2014.12.01-04.23.04:339][ 27]LogBlueprintUserMessages: -32:3561
-[2014.12.01-04.23.04:720][ 49]LogBlueprintUserMessages: -33:3582
-[2014.12.01-04.23.04:964][ 63]LogBlueprintUserMessages: -34:3595
-[2014.12.01-04.23.05:419][ 89]LogBlueprintUserMessages: -35:3620
-[2014.12.01-04.23.06:713][164]LogBlueprintUserMessages: -36:3694
-[2014.12.01-04.23.08:092][244]LogBlueprintUserMessages: -37:3773
-[2014.12.01-04.23.08:162][248]LogBlueprintUserMessages: -38:3776
-[2014.12.01-04.23.08:182][249]LogBlueprintUserMessages: -39:3776
-[2014.12.01-04.23.08:404][262]LogBlueprintUserMessages: -40:3788
-[2014.12.01-04.23.08:524][269]LogBlueprintUserMessages: -41:3794
-[2014.12.01-04.23.10:677][394]LogBlueprintUserMessages: -42:3918
-[2014.12.01-04.23.11:152][422]LogBlueprintUserMessages: -43:3945
-[2014.12.01-04.23.11:325][432]LogBlueprintUserMessages: -44:3954
-[2014.12.01-04.23.11:476][441]LogBlueprintUserMessages: -45:3962
-[2014.12.01-04.23.12:173][482]LogBlueprintUserMessages: -46:4002
-[2014.12.01-04.23.13:143][531]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012B97D80
-[2014.12.01-04.23.15:841][642]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.12.01-04.23.15:841][642]LogPlayLevel: [PIE] Compiling SeekerBall before PIE...
-[2014.12.01-04.23.15:937][642]LogPlayLevel: [PIE] Compiling GameMap before PIE...
-[2014.12.01-04.23.16:046][642]LogPlayLevel: [PIE] Compiling GUI before PIE...
-[2014.12.01-04.23.16:135][642]LogPlayLevel: [PIE] Compiling PhysicsBallBP before PIE...
-[2014.12.01-04.23.16:246][642]LogBlueprint:Warning: [compiler] Warning Function ' Get Player Pawn ' is unsafe to call in a construction script.
-[2014.12.01-04.23.16:277][642]LogBlueprint:Warning: [compiler] Warning [0772.43] Compile of PhysicsBallBP successful, but with 1 Warning(s) [in 40 ms]
-[2014.12.01-04.23.16:323][642]LogPlayLevel: [PIE] Compiling BP_AvoidPlayer before PIE...
-[2014.12.01-04.23.16:497][642]LogPlayLevel: PIE:  Blueprint regeneration took 656 ms (5 blueprints)
-[2014.12.01-04.23.16:498][642]PIE: New page: PIE session: GameMap (Nov 30, 2014, 6:23:16 PM)
-[2014.12.01-04.23.16:592][642]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094485s)
-[2014.12.01-04.23.16:593][642]LogPlayLevel: PIE: World Init took: (0.000659s)
-[2014.12.01-04.23.16:593][642]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameMap.GameMap to /Game/Maps/UEDPIE_0_GameMap.GameMap (0.095364s)
-[2014.12.01-04.23.16:619][642]LogWorld: Game class is 'RollingGameMode_C'
-[2014.12.01-04.23.16:621][642]LogAIModule: Creating AISystem for world GameMap
-[2014.12.01-04.23.16:626][642]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 60) at 2014.11.30-23.23.16
-[2014.12.01-04.23.16:628][642]LogWorld: Bringing up level for play took: 0.007334
-[2014.12.01-04.23.16:631][642]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_GameMap 0.883
-[2014.12.01-04.23.18:911][769]LogBlueprintUserMessages: 0:2127
-[2014.12.01-04.23.19:558][807]LogBlueprintUserMessages: -1:2164
-[2014.12.01-04.23.20:577][867]LogBlueprintUserMessages: -2:2223
-[2014.12.01-04.23.20:817][881]LogBlueprintUserMessages: -3:2236
-[2014.12.01-04.23.21:474][919]LogBlueprintUserMessages: -4:2273
-[2014.12.01-04.23.23:386][ 30]LogBlueprintUserMessages: -5:2383
-[2014.12.01-04.23.23:491][ 36]LogBlueprintUserMessages: -6:2388
-[2014.12.01-04.23.23:680][ 47]LogBlueprintUserMessages: -7:2398
-[2014.12.01-04.23.25:484][152]LogBlueprintUserMessages: -8:2502
-[2014.12.01-04.23.25:500][153]LogBlueprintUserMessages: -9:2502
-[2014.12.01-04.23.25:552][156]LogBlueprintUserMessages: -10:2504
-[2014.12.01-04.23.25:790][170]LogBlueprintUserMessages: -11:2517
-[2014.12.01-04.23.25:947][179]LogBlueprintUserMessages: -12:2525
-[2014.12.01-04.23.25:980][181]LogBlueprintUserMessages: -13:2526
-[2014.12.01-04.23.26:716][224]LogBlueprintUserMessages: -14:2568
-[2014.12.01-04.23.27:353][261]LogBlueprintUserMessages: -15:2604
-[2014.12.01-04.23.27:856][290]LogBlueprintUserMessages: -16:2632
-[2014.12.01-04.23.29:277][369]LogBlueprintUserMessages: -17:2710
-[2014.12.01-04.23.29:984][410]LogBlueprintUserMessages: -18:2750
-[2014.12.01-04.23.30:189][422]LogBlueprintUserMessages: -19:2761
-[2014.12.01-04.23.30:952][466]LogBlueprintUserMessages: -20:2804
-[2014.12.01-04.23.32:195][539]LogBlueprintUserMessages: -21:2876
-[2014.12.01-04.23.32:824][576]LogBlueprintUserMessages: -22:2912
-[2014.12.01-04.23.32:860][578]LogBlueprintUserMessages: -23:2913
-[2014.12.01-04.23.33:782][631]LogBlueprintUserMessages: -24:2965
-[2014.12.01-04.23.33:970][642]LogBlueprintUserMessages: -25:2975
-[2014.12.01-04.23.34:613][679]LogBlueprintUserMessages: -26:3011
-[2014.12.01-04.23.34:734][686]LogBlueprintUserMessages: -27:3017
-[2014.12.01-04.23.34:836][692]LogBlueprintUserMessages: -28:3022
-[2014.12.01-04.23.37:063][822]LogBlueprintUserMessages: -29:3151
-[2014.12.01-04.23.38:188][886]LogBlueprintUserMessages: -30:3214
-[2014.12.01-04.23.38:968][931]LogBlueprintUserMessages: -31:3258
-[2014.12.01-04.23.39:245][947]LogBlueprintUserMessages: -32:3273
-[2014.12.01-04.23.39:386][955]LogBlueprintUserMessages: -33:3280
-[2014.12.01-04.23.39:723][974]LogBlueprintUserMessages: -34:3298
-[2014.12.01-04.23.39:812][979]LogBlueprintUserMessages: -35:3302
-[2014.12.01-04.23.40:261][  5]LogBlueprintUserMessages: -36:3327
-[2014.12.01-04.23.40:345][ 10]LogBlueprintUserMessages: -37:3331
-[2014.12.01-04.23.40:573][ 23]LogBlueprintUserMessages: -38:3343
-[2014.12.01-04.23.40:833][ 38]LogBlueprintUserMessages: -39:3357
-[2014.12.01-04.23.41:275][ 63]LogBlueprintUserMessages: -40:3381
-[2014.12.01-04.23.41:624][ 82]LogBlueprintUserMessages: -41:
+[2014.12.02-01.52.28:517][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.12.02-01.52.28:545][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.02-01.52.28:561][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.02-01.52.28:570][  0]LogInit: Object subsystem initialized
+[2014.12.02-01.52.28:573][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.12.02-01.52.28:573][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/phelow/Documents/E-BALL-A/demo project/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.02-01.52.28:573][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.12.02-01.52.28:573][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/phelow/Documents/E-BALL-A/demo project/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.02-01.52.28:574][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.02-01.52.28:574][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.02-01.52.28:579][  0]LogInit: Computer: PHELOW-PC
+[2014.12.02-01.52.28:579][  0]LogInit: User: phelow
+[2014.12.02-01.52.28:580][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.12.02-01.52.28:580][  0]LogInit: High frequency timer resolution =2.728261 MHz
+[2014.12.02-01.52.28:580][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx) Virtual=8192.0GB
+[2014.12.02-01.52.28:580][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.02-01.52.28:580][  0]LogMemory: Process Physical Memory: 64.52 MB used, 64.52 MB peak
+[2014.12.02-01.52.28:580][  0]LogMemory: Process Virtual Memory: 41.28 MB used, 41.28 MB peak
+[2014.12.02-01.52.28:580][  0]LogMemory: Physical Memory: 4050.80 MB used, 7915.94 MB total
+[2014.12.02-01.52.28:580][  0]LogMemory: Virtual Memory: 278.33 MB used, 8388608.00 MB total
+[2014.12.02-01.52.28:655][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2014.12.02-01.52.28:655][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2014.12.02-01.52.28:655][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.02-01.52.28:661][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
+[2014.12.02-01.52.28:682][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.02-01.52.28:726][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.02-01.52.28:869][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.02-01.52.33:704][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.02-01.52.34:136][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.02-01.52.34:186][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.02-01.52.34:257][  0]LogDerivedDataCache: Loaded boot cache 0.07s 39MB C:/Users/phelow/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.12.02-01.52.34:257][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/phelow/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.12.02-01.52.34:257][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/phelow/Documents/E-BALL-A/demo project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.02-01.52.34:257][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.02-01.52.34:325][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.02-01.52.34:337][  0]LogDerivedDataCache: Using Local data cache path C:/Users/phelow/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.02-01.52.34:511][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.02-01.52.34:511][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.02-01.52.34:753][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.02-01.52.34:756][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.02-01.52.34:940][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.02-01.52.35:632][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.02-01.52.35:809][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/phelow/Documents/E-BALL-A/demo project/Binaries/Win64. Error: 0
+[2014.12.02-01.52.35:923][  0]SourceControl: Info Source control is disabled
+[2014.12.02-01.52.35:923][  0]SourceControl: Info Source control is disabled
+[2014.12.02-01.52.35:928][  0]SourceControl: Info Source control is disabled
+[2014.12.02-01.52.36:037][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2014.12.02-01.52.36:037][  0]LogUObjectAllocator: 4803544 out of 0 bytes used by permanent object pool.
+[2014.12.02-01.52.36:095][  0]LogEngine: Initializing Engine...
+[2014.12.02-01.52.36:255][  0]LogInit: XAudio2 using 'Speaker/HP (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.12.02-01.52.36:307][  0]LogInit: FAudioDevice initialized.
+[2014.12.02-01.52.36:334][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.02-01.52.36:362][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/phelow/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.12.02-01.52.36:368][  0]LogInit: Texture streaming: Enabled
+[2014.12.02-01.52.36:430][  0]LogInit: Transaction tracking system initialized
+[2014.12.02-01.52.36:540][  0]BlueprintLog: New page: Editor Load
+[2014.12.02-01.52.36:574][  0]LogAssetRegistry: FAssetRegistry took 0.0094 seconds to start up
+[2014.12.02-01.52.36:574][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.02-01.52.37:196][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.02-01.52.37:559][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.02-01.52.37:809][  0]LogConsoleResponse:Display: 
+[2014.12.02-01.52.38:003][  0]SourceControl: Info Source control is disabled
+[2014.12.02-01.52.38:003][  0]Cmd: MAP LOAD FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.02-01.52.38:005][  0]LightingResults: New page: Lighting Build
+[2014.12.02-01.52.38:014][  0]MapCheck: New page: Map Check
+[2014.12.02-01.52.38:014][  0]LightingResults: New page: Lighting Build
+[2014.12.02-01.52.38:037][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CD6DA80
+[2014.12.02-01.52.38:298][  0]LogLinker:Warning: Asset '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Meshes/BallMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.02-01.52.38:407][  0]LogBlueprint:Warning: [compiler] Warning Function ' Get Player Pawn ' is unsafe to call in a construction script.
+[2014.12.02-01.52.38:424][  0]LogBlueprint:Warning: [compiler] Warning [0012.32] Compile of PhysicsBallBP successful, but with 1 Warning(s) [in 24 ms]
+[2014.12.02-01.52.38:456][  0]LogBlueprint:Warning: [compiler] Warning Function ' Get Player Pawn ' is unsafe to call in a construction script.
+[2014.12.02-01.52.38:472][  0]LogBlueprint:Warning: [compiler] Warning [0012.37] Compile of PhysicsBallBP successful, but with 1 Warning(s) [in 24 ms]
+[2014.12.02-01.52.38:957][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.02-01.52.38:957][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.02-01.52.38:957][  0]Cmd: MAP CHECKDEP
+[2014.12.02-01.52.38:958][  0]MapCheck: New page: Example_Map - Dec 1, 2014, 3:52:38 PM
+[2014.12.02-01.52.39:062][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 103.924ms to complete.
+[2014.12.02-01.52.39:062][  0]LogFileHelpers: Loading map 'Example_Map' took 1.059
+[2014.12.02-01.52.39:132][  0]LogCollectionManager: Loaded 0 collections in 0.000996 seconds
+[2014.12.02-01.52.39:244][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.02-01.52.39:275][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.12.02-01.52.39:316][  0]LogLoad: Full Startup: 13.21 seconds (BP compile: 0.28 seconds)
+[2014.12.02-01.52.39:664][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2014.12.02-01.52.39:806][  0]LogRenderer:Warning: Reallocating scene render targets to support 544x704.
+[2014.12.02-01.52.41:251][  4]LogAssetRegistry: Asset discovery search completed in 4.6870 seconds
+[2014.12.02-01.52.53:119][143]Cmd: MAP LOAD FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Maps/GameMap.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.02-01.52.53:119][143]LightingResults: New page: Lighting Build
+[2014.12.02-01.52.53:150][143]LoadErrors: New page: Loading map: GameMap.umap
+[2014.12.02-01.52.53:151][143]MapCheck: New page: Map Check
+[2014.12.02-01.52.53:151][143]LightingResults: New page: Lighting Build
+[2014.12.02-01.52.53:183][143]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F23E7A0
+[2014.12.02-01.52.53:220][143]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.02-01.52.53:220][143]LogAIModule: Creating AISystem for world GameMap
+[2014.12.02-01.52.53:258][143]Cmd: MAP CHECKDEP
+[2014.12.02-01.52.53:258][143]MapCheck: New page: GameMap - Dec 1, 2014, 3:52:53 PM
+[2014.12.02-01.52.53:365][143]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 107.315ms to complete.
+[2014.12.02-01.52.53:365][143]LogFileHelpers: Loading map 'GameMap' took 0.248
+[2014.12.02-01.53.01:371][460]LogLinker:Warning: Can't resolve asset name
+[2014.12.02-01.53.43:286][ 64]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.02-01.53.43:286][ 64]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.02-01.53.43:290][ 64]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.02-01.53.43:290][ 64]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.02-01.53.43:290][ 64]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.02-01.53.43:290][ 64]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.02-01.53.43:290][ 64]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.02-01.53.43:290][ 64]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.02-01.53.43:290][ 64]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.02-01.53.43:290][ 64]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.02-01.53.43:290][ 64]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.02-01.53.43:291][ 64]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.02-01.53.43:291][ 64]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.02-01.53.43:291][ 64]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.02-01.53.43:291][ 64]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.02-01.53.43:291][ 64]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.02-01.53.43:291][ 64]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.02-01.53.43:291][ 64]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.02-01.53.43:291][ 64]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.02-01.53.50:141][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GameMap" FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Maps/GameMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.12.02-01.53.50:401][318]LogSavePackage: Save=190.588806ms
+[2014.12.02-01.53.50:401][318]LogSavePackage: Moving '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Saved/GameMapD1A7200844C2CA01E791AFB4DC037B67.tmp' to '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Maps/GameMap.umap'
+[2014.12.02-01.53.50:450][318]LogFileHelpers: Saving map 'GameMap' took 0.421
+[2014.12.02-01.54.02:633][641]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.02-01.54.02:633][641]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.12.02-01.54.02:698][641]LogPlayLevel: [PIE] Compiling GameMap before PIE...
+[2014.12.02-01.54.02:813][641]LogPlayLevel: PIE:  Blueprint regeneration took 179 ms (2 blueprints)
+[2014.12.02-01.54.02:813][641]PIE: New page: PIE session: GameMap (Dec 1, 2014, 3:54:02 PM)
+[2014.12.02-01.54.02:888][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074662s)
+[2014.12.02-01.54.02:888][641]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2014.12.02-01.54.02:889][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameMap.GameMap to /Game/Maps/UEDPIE_0_GameMap.GameMap (0.075718s)
+[2014.12.02-01.54.02:931][641]LogWorld: Game class is 'RollingGameMode_C'
+[2014.12.02-01.54.02:932][641]LogAIModule: Creating AISystem for world GameMap
+[2014.12.02-01.54.02:937][641]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 60) at 2014.12.01-20.54.02
+[2014.12.02-01.54.02:939][641]LogWorld: Bringing up level for play took: 0.006162
+[2014.12.02-01.54.02:942][641]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_GameMap 0.619
+[2014.12.02-01.54.30:355][265]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000253DBF60
+[2014.12.02-02.04.04:470][429]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.02-02.04.04:470][429]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.02-02.04.04:470][429]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.02-02.04.04:470][429]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.02-02.04.04:470][429]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.02-02.04.04:470][429]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.02-02.05.29:070][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PhysicsBallBP" FILE="../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Content/Blueprints/PhysicsBallBP.uasset" SILENT=true
+[2014.12.02-02.05.29:509][696]LogSavePackage: Save=412.663971ms
+[2014.12.02-02.05.29:509][696]LogSavePackage: Moving '../../../../../../Users/phelow/Documents/E-BALL-A/demo project/Saved/PhysicsBallBP2C2342D54F6A3C98EE0AB8BE1F44E806.tmp' to '../../../../../../Users/phelo
