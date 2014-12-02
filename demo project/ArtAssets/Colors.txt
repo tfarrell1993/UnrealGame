@@ -1,0 +1,8 @@
+In case it's relevant, here are the RGB values for the colors used in the textures
+
+Red Blood Cell: 		(215, 16, 11)
+Virus Dark Purple: 		(29, 0, 82)
+Virus Dark Blue:		(0, 20, 122)
+Nerve Cell Core: 		(83, 233, 255)
+Nerve Cell Tendrils:	(83, 193, 255)
+Muscle Cell Orange:		(221, 120, 0)
